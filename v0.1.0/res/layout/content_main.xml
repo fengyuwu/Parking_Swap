@@ -13,34 +13,38 @@
     tools:showIn="@layout/activity_main">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/Find"
-        android:layout_marginTop="150dp"
         android:text="Find Lots"
-        android:layout_marginLeft="50dp"
         android:textColor="@android:color/background_light"
         android:background="?attr/colorPrimary"
-        android:onClick="onButtonClickListener" />
+        android:onClick="onButtonClickListener"
+        android:layout_alignBottom="@+id/Leave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/Leave"
-        android:layout_marginTop="150dp"
         android:text="Leave"
-        android:layout_marginLeft="250dp"
         android:background="?attr/colorPrimary"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:layout_alignBottom="@+id/Quick_Find"
+        android:layout_alignLeft="@+id/Find"
+        android:layout_alignStart="@+id/Find"
+        android:layout_marginBottom="52dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/Quick_Find"
-        android:layout_marginTop="250dp"
         android:text="Quick Find"
-        android:layout_marginLeft="145dp"
         android:textColor="@android:color/background_light"
-        android:background="?attr/colorPrimary" />
+        android:background="?attr/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/Leave"
+        android:layout_alignStart="@+id/Leave" />
 
 </RelativeLayout>
