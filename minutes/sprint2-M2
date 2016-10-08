@@ -1,0 +1,26 @@
+date: September 21, 2016
+meeting_type: ta, instructor
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <xenalin>, <fengyuwu>, <tjquinn>]
+absent: [<ubit>,]
+excused_absences: [ # Any legitamite excuses for absent team members
+  {ubit: <ubit5>, : reason: },
+  {ubit: <ubit6>, reason: }
+  ]
+task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
+  {ubit: <pkearney>, progress: Find a server we can use},
+  {ubit: <jsingh27>, progress: None},
+  {ubit: <mrnorton>, progress: None},
+  {ubit: <ewyang>, progress: None},
+  {ubit: <mjkall>, progress: None},
+  {ubit: <xenalin>, progress: None},
+  {ubit: <fengyuwu>, progress: None},
+  {ubit: <tjquinn>, progress: Record Minutes,}
+  ]
+issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
+  {ubit: <ubit2>, issue: },
+  {ubit: <ubit6>, issue: }
+  ]
+Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
+  -Jesse crashed the party(instead of meeting later tonight)
+  -Make sure every group member has github issues.
+  
