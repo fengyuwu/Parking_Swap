@@ -1,6 +1,6 @@
 date: October 5, 2016
 meeting_type: ta, 
-attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <xenalin>, <fengyuwu>, <tjquinn>]
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
 absent: [<ubit>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
@@ -12,7 +12,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
-  {ubit: <xenalin>, progress: None},
+  {ubit: <amingola>, progress: Started an AWS account, explored various modules, begun researching tutorials/demos to start interfacing with the platform},
   {ubit: <fengyuwu>, progress: None},
   {ubit: <tjquinn>, progress: User class defined, Record Minutes,}
   ]
@@ -24,4 +24,4 @@ Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
   -Github issues assigned. 
   -Front/back end team members have been changed since last ta meeting
     new front end team: Jsingh27, mrnorton, feng
-    new back end team: pkearney, ewyang, mjkall, xenalin, tjquinn
+    new back end team: pkearney, ewyang, mjkall, amingola, tjquinn
