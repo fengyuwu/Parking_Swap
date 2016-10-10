@@ -14,7 +14,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mjkall>, progress: None},
   {ubit: <xenalin>, progress: None},
   {ubit: <fengyuwu>, progress: None},
-  {ubit: <tjquinn>, progress: Record Minutes,}
+  {ubit: <tjquinn>, progress: User class defined, Record Minutes,}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
   {ubit: <ubit2>, issue: },
