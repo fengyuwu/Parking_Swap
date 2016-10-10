@@ -10,7 +10,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <pkearney>, progress: Find a server we can use, continue Django done with Module 6 of 13 and made a prop up bootsrap site},
   {ubit: <jsingh27>, progress: worked on finding the location of the user with google maps API},
   {ubit: <mrnorton>, progress: None},
-  {ubit: <ewyang>, progress: None},
+  {ubit: <ewyang>, progress: was told we could use server in Baldy19 continue Django learning},
   {ubit: <mjkall>, progress: Work on Google Sign in, "Invalid Audience" error},
   {ubit: <amingola>, progress: Began examining Amazon Web services as a potential platform for a back-end. Considered in depth its potential to authenticate users and give us management of them},
   {ubit: <fengyuwu>, progress: None},
