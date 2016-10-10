@@ -11,7 +11,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <jsingh27>, progress: Successfully implemented google sign in with the main parkingswap app where the user needs to login with their google account to access the app},
   {ubit: <mrnorton>, progress: 'Leave' button has base map layer down and also places a marker for those leaving. Also, textviews for lot
                       list have been modified to be buttons and put into a scroll view.},
-  {ubit: <ewyang>, progress: None},
+  {ubit: <ewyang>, progress: Got the google sign in to work however, trying to resolve invalid_audiance},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: AWS sample app successfully registers traffic of unauthenticated users. Cognito and IAM modules are configured, as are user identity pools and user roles. Authentication still has "INVALID_AUDIENCE" error.},
   {ubit: <fengyuwu>, progress: None},
