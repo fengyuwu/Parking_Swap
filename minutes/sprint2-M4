@@ -8,7 +8,7 @@ excused_absences: [ # Any legitamite excuses for absent team members
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <pkearney>, progress:New ISSUE Build base of classes for concurrent Java communication between clients & server  },
-  {ubit: <jsingh27>, progress: None},
+  {ubit: <jsingh27>, progress: started working on implementing google login api with the main app, the login was configured by amingola on a google demo app},
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
