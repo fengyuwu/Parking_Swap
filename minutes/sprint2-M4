@@ -10,7 +10,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <pkearney>, progress:New ISSUE Build base of classes for concurrent Java communication between clients & server  },
   {ubit: <jsingh27>, progress: started working on implementing google login api with the main app, the login was configured by amingola on a google demo app},
   {ubit: <mrnorton>, progress: None},
-  {ubit: <ewyang>, progress: None},
+  {ubit: <ewyang>, progress: Learning how to use google sign in AWS and trying to implement on sample app},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: Created issues and assigned myself, debugging a sample app of our AWS configuration. Google Developer console client IDs created and a Google sign-in demo app runs successfully.},
   {ubit: <fengyuwu>, progress: None},
