@@ -1,5 +1,5 @@
 package com.example.jaskiratsingh.parkingswap;
-
+//signinactivity.java and activity_signin.xml was taken from google's github repository 
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
