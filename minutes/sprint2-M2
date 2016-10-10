@@ -11,7 +11,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <jsingh27>, progress: None},
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
-  {ubit: <mjkall>, progress: None},
+  {ubit: <mjkall>, progress: Work on Google Sign in, "Invalid Audience" error},
   {ubit: <xenalin>, progress: None},
   {ubit: <fengyuwu>, progress: None},
   {ubit: <tjquinn>, progress: Record Minutes,}
