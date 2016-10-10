@@ -12,7 +12,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
-  {ubit: <amingola>, progress: Created issues and assignmed myself, debugging a sample app of our AWS configuration},
+  {ubit: <amingola>, progress: Created issues and assigned myself, debugging a sample app of our AWS configuration. Google Developer console client IDs created and a Google sign-in demo app runs successfully.},
   {ubit: <fengyuwu>, progress: None},
   {ubit: <tjquinn>, progress: Record Minutes,}
   ]
