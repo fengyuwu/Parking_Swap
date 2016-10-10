@@ -1,6 +1,6 @@
 date: October 7, 2016
 meeting_type: group, 
-attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <xenalin>, <fengyuwu>, <tjquinn>]
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
 absent: [<ubit>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
@@ -12,7 +12,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
-  {ubit: <xenalin>, progress: None},
+  {ubit: <amingola>, progress: Created issues and assignmed myself, debugging a sample app of our AWS configuration},
   {ubit: <fengyuwu>, progress: None},
   {ubit: <tjquinn>, progress: Record Minutes,}
   ]
