@@ -8,7 +8,7 @@ excused_absences: [ # Any legitamite excuses for absent team members
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <pkearney>, progress:design discussion on backend, looking to learn about frameworks for DB access  (DJango)},
-  {ubit: <jsingh27>, progress: None},
+  {ubit: <jsingh27>, progress: discussed about implementation of maps in the app using google api with mrnorton},
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
