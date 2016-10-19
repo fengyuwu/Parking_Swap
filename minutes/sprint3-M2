@@ -15,11 +15,11 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
   {ubit: <fengyuwu>, progress: None},
-  {ubit: <tjquinn>, progress: None}
+  {ubit: <tjquinn>, progress: }
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
   {ubit: <ubit2>, issue: },
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
- 
+ -Issue with aws is still holding up progress of linking front and back end of app. Contacting Jesse to set up a meeting with him.  
