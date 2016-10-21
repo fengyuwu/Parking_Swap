@@ -19,176 +19,286 @@
 
 
 
-
-
         <Button
             android:layout_width="350dp"
-            android:text="Arena  "
+            android:text="Arena"
             android:textSize="20dp"
             android:background="?attr/colorPrimary"
             android:textColor="@android:color/background_light"
             android:textAlignment="center"
             android:layout_marginTop="3dp"
             android:id="@+id/Button1"
-            android:onClick="onButtonClickButton1"/>
+            android:onClick="onButtonClickArena"/>
 
         <Button
             android:layout_width="350dp"
-            android:text="Alumni "
+            android:text="Alumni A"
             android:textSize="20dp"
             android:background="?attr/colorPrimary"
             android:textColor="@android:color/background_light"
             android:textAlignment="center"
             android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton2" />
+            android:id="@+id/onButtonClickAlumniA" />
 
         <Button
             android:layout_width="350dp"
-            android:text="Baird  "
+            android:text="Alumni B"
             android:textSize="20dp"
             android:background="?attr/colorPrimary"
             android:textColor="@android:color/background_light"
             android:textAlignment="center"
             android:layout_marginTop="3dp"
-
-            android:id="@+id/onButtonClickButton3" />
-
-        <Button
-            android:layout_width="350dp"
-            android:text="Cooke  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton4" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Crofts "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton5" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Fargo "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton6" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Furnas  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton7" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Governors  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton8" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Hochstetter"
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton9" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Jacobs   "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton10" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Jarvis "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton11" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Ketter  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton12" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Lake LaSalle  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton13" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Red Jacket "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton14" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Richmond  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton15" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Stadium  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton16" />
-        <Button
-            android:layout_width="350dp"
-            android:text="Slee  "
-            android:textSize="20dp"
-            android:background="?attr/colorPrimary"
-            android:textColor="@android:color/background_light"
-            android:textAlignment="center"
-            android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton17" />
+            android:id="@+id/onButtonClickAlumniB" />
 
         <Button
             android:layout_width="350dp"
-            android:text="Spaulding  "
+            android:text="Alumni C"
             android:textSize="20dp"
             android:background="?attr/colorPrimary"
             android:textColor="@android:color/background_light"
             android:textAlignment="center"
             android:layout_marginTop="3dp"
-            android:id="@+id/onButtonClickButton18" />
+            android:id="@+id/onButtonClickAlumniC" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Baird A"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickBairdA" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Cooke A"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickCookeA" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Cooke B"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickCookeB" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Crofts"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickCrofts" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Fargo"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickFargo" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Governors B"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickGovernorsB" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Governors C"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickGovernorsC" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Governors D"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickGovernorsD" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Governors E"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickGovernorsE" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Hochstetter B(Commuter Only)"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickHochstetterB" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Jacobs B"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickJacobsB" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Jacobs C"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickJacobsC" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Jarvis A(Commuter Only)"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickJarvisA" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Jarvis B"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickJarvisB" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Ketter"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickKetter" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Lake LaSalle"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickLakeLaSalle" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Red Jacket"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickRedJacket" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Richmond A"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickRichmondA" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Richmond B"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickRichmondB" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Special Event Parking"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickSpecialEventParking" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Stadium"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickStadium" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Slee A"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickSleeA" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Slee B"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickSleeB" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Spaulding"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickSpaulding" />
 
 
 
