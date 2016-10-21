@@ -20,96 +20,145 @@ public class LotActivity extends AppCompatActivity {
 //        startActivity(new Intent("Map_class.Map"));
 //    }
 
-    public void onButtonClickButton1(View v){
-        startActivity(new Intent("Arena_class.Map"));
+    public void onButtonClickArena(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton2(View v){
-        startActivity(new Intent("Alumni_class.Map"));
+    public void onButtonClickAlumniA(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton3(View v){
-        startActivity(new Intent("Baird_class.Map"));
+    public void onButtonClickAlumniB(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton4(View v){
-        startActivity(new Intent("Cooke_class.Map"));
+    public void onButtonClickAlumniC(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton5(View v){
-        startActivity(new Intent("Crofts_class.Map"));
+    public void onButtonClickBairdA(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton6(View v){
-        startActivity(new Intent("Fargo_class.Map"));
+    public void onButtonClickCookeA(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton7(View v){
-        startActivity(new Intent("Furnas_class.Map"));
+    public void onButtonClickCookeB(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton8(View v){
-        startActivity(new Intent("Governors_class.Map"));
+    public void onButtonClickCrofts(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton9(View v){
-        startActivity(new Intent("Hochstetter_class.Map"));
+    public void onButtonClickFargo(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton10(View v){
-        startActivity(new Intent("Jacobs_class.Map"));
+    public void onButtonClickGovernorsB(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton11(View v){
-        startActivity(new Intent("Jarvis_class.Map"));
+    public void onButtonClickGovernorsC(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton12(View v){
-        startActivity(new Intent("Ketter_class.Map"));
+    public void onButtonClickGovernorsD(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton13(View v){
-        startActivity(new Intent("LakeLaSalle_class.Map"));
+    public void onButtonClickGovernorsE(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton14(View v){
-        startActivity(new Intent("RedJacket_class.Map"));
+    public void onButtonClickHochstetterB(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton15(View v){
-        startActivity(new Intent("Richmond_class.Map"));
+    public void onButtonClickJacobsB(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton16(View v){
-        startActivity(new Intent("Stadium_class.Map"));
+    public void onButtonClickJacobsC(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton17(View v){
-        startActivity(new Intent("Slee_class.Map"));
+    public void onButtonClickJarvisA(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
-    public void onButtonClickButton18(View v){
-        startActivity(new Intent("Spaulding_class.Map"));
+    public void onButtonClickJarvisB(View v){
+        startActivity(new Intent("Map_class.Map"));
 
     }
 
+    public void onButtonClickKetter(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickLakeLaSalle(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickRedJacket(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickRichmondA(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickRichmondB(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickSpecialEventParking(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickStadium(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickSleeA(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickSleeB(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
+
+    public void onButtonClickSpaulding(View v){
+        startActivity(new Intent("Map_class.Map"));
+
+    }
 
 }
 
