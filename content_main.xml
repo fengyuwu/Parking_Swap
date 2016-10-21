@@ -34,7 +34,8 @@
         android:layout_alignBottom="@+id/Quick_Find"
         android:layout_alignLeft="@+id/Find"
         android:layout_alignStart="@+id/Find"
-        android:layout_marginBottom="52dp" />
+        android:layout_marginBottom="52dp"
+        android:onClick="onButtonClickLeave" />
 
     <Button
         android:layout_width="350dp"
