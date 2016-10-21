@@ -15,13 +15,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 
-//import com.google.android.gms.common.api.GoogleApiClient;
-//import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.maps.GoogleMap;
 
 public class MainActivity extends AppCompatActivity {
 
-  //  GoogleMap mGoogleMap;
-   // GoogleApiClient mGoogleApiClient;
+    GoogleMap mGoogleMap;
+    GoogleApiClient mGoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,5 +55,12 @@ public class MainActivity extends AppCompatActivity {
     public void onButtonClickListener(View v){
 
         startActivity(new Intent("Find_class.Find"));
+
+    }
+
+    public void onButtonClickLeave(View v){
+
+        startActivity(new Intent("Leave_class.Leave"));
+
     }
 }

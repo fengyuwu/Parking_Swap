@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+     Changed the layout a bit, and added new textViews.- Fengyu Wu
+     -->
+
+    <!--
+        I changed the text views to Buttons so we could use them for clickable functionality
+        and also added the scrollview function as well. -Matt Norton
+    -->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Arena  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/Button1"
+            android:onClick="onButtonClickButton1"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Alumni "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton2" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Baird  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+
+            android:id="@+id/onButtonClickButton3" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Cooke  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton4" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Crofts "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton5" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Fargo "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton6" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Furnas  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton7" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Governors  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton8" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Hochstetter"
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton9" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Jacobs   "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton10" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Jarvis "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton11" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Ketter  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton12" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Lake LaSalle  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton13" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Red Jacket "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton14" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Richmond  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton15" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Stadium  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton16" />
+        <Button
+            android:layout_width="350dp"
+            android:text="Slee  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton17" />
+
+        <Button
+            android:layout_width="350dp"
+            android:text="Spaulding  "
+            android:textSize="20dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/onButtonClickButton18" />
+
+
+
+
+
+
+
+    </TableLayout>
+</ScrollView>
