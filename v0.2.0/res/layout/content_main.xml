@@ -16,7 +16,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/Find"
-        android:text="Find Lots"
+        android:text="Find By Lots"
         android:textColor="@android:color/background_light"
         android:background="?attr/colorPrimary"
         android:onClick="onButtonClickListener"
