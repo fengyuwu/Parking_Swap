@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.6.1_5c778f3b947225f030efee053d240bad546161b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-9.6.1_fc86342c858d4041fff7d2f965338d58f922f841.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-9.6.1_9e989fab77b1290b28996ed40ffbc2b928fced5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-9.6.1_27f2bfcef12117e671cb25de309c39ddfee0510f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.6.1_d78c34cadce79a12c0da4e4d893a59a535982be6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.6.1_5465c589f26e46cb1ed489c1211c664c6b75e485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.6.1_f0fc48130c7719d4c8c705ab817ee13e52aa9575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_46a29cff0fd137628b1217a83c5a78bbe4f3f8d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-9.6.1_2ded2813aa5941460c61f4c72a992b7936ddaa76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_92fb4bba3ce15b9f628658a1c2a84dfdcb703703.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_a533fcf3edfc140e6e220f09d7142032fc803b2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-9.6.1_57b4676a1b8d5c89469f272329bc585181ce2640.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_af9b99466633bda656e677c4bef2b05ac72c2e97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.6.1_a4a9824d7c5bec18c2d8691d2b4908dbe0d82aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.6.1_b0a3f565d25a595839cc5bd7bcb135111362f292.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.6.1_1cb16a71555b44b42c4e06ebdd03ee0d3cca5715.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-9.6.1_335ff4f6d67ed43b239b93a778d1f7b7cdb78a4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_e22e49f5b2445a82abf96236a66b71269bf8203b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-awareness-9.6.1_1eac9b65d9cc4e59977055eaebfb4dc83b1c9d6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.6.1_3227497aa5218e38a1571a2c592ab431286b532e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.6.1_471549f6f1db852e2013c7b1c44c0cf9e11e240c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.6.1_723171e9833cc5eec43122be12386f69445d267e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-9.6.1_556e209b0064e32603579e8d0fa1c0e0eea752d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.6.1_e3a6ca7f90ebff12c02d2a5fdab8d5694f2ae4e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.6.1_13d162d9670dd460be5a04eba10c7247c398d470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_1286ea10c5d0667885f43c26e50675294c869171.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a136366045678579300d161de97c2211c4c4f7a0">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-9.6.1_69dfc380625273b6d26f0349bc189a50c5934192.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-24.0.0_e9382662e0dfb34eb7ccc8be74fd1c192917b81f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.6.1_5465c589f26e46cb1ed489c1211c664c6b75e485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_07a977e59512b072cc87763fc35cbc8ca1f37368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="babb25794a7599069d34705038744c5760a9a88c">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-instantapps-9.6.1_7124bca682bd883485fbfa59d2c054285d10867b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-9.6.1_fc86342c858d4041fff7d2f965338d58f922f841.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.1_95793e3c27d7414ac8958099cc4381f37e4d9c58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Andrew\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_94ea99efdf238b5c234ede40282f7a15cdd17459.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.6.1_6c4db6b0777e8c74ed7c48197db9537120eb7048.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-9.6.1_d61a7e0428b619ab88a145c51b9d35caa7933d71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.6.1_13d162d9670dd460be5a04eba10c7247c398d470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-9.6.1_2ded2813aa5941460c61f4c72a992b7936ddaa76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.6.1_b4516a23c6c15550f06a57d3b4e6e6d704237aa8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.6.1_8b6d38c98a46d8a61473a9e0ebae72c5c426ec19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="518adc52081d41724932b41bc132e4d50a352b86">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.6.1_e506b8b1bf751474f6213af1dab5bfe9fa88c478.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.6.1_f0fc48130c7719d4c8c705ab817ee13e52aa9575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_a533fcf3edfc140e6e220f09d7142032fc803b2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.6.1_c5d69014b2e9850f45b4b12988c803b2a92a0fa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.6.1_d79cdbf3148210dc6584ebc0fdb6486ee31b465a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-framework-9.6.1_b295fc68ce2bbee24f0929d930d14f8733b8ac65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="babb25794a7599069d34705038744c5760a9a88c">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-instantapps-9.6.1_7124bca682bd883485fbfa59d2c054285d10867b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.6.1_a4a9824d7c5bec18c2d8691d2b4908dbe0d82aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.6.1_1cb16a71555b44b42c4e06ebdd03ee0d3cca5715.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_46a29cff0fd137628b1217a83c5a78bbe4f3f8d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-9.6.1_556e209b0064e32603579e8d0fa1c0e0eea752d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.6.1_db8308480430079de01e0554aba969c5ab1f6861.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_07a977e59512b072cc87763fc35cbc8ca1f37368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.6.1_723171e9833cc5eec43122be12386f69445d267e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.6.1_b3591632f15effe50de4a3bffda7c7b6c301a5b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_af9b99466633bda656e677c4bef2b05ac72c2e97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Andrew\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_94ea99efdf238b5c234ede40282f7a15cdd17459.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.1_a833ec6b825b381e65888bc10d3bc8375178a851.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_cc5bbc0550514ff1d86415febad23c7e51473654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.1_95793e3c27d7414ac8958099cc4381f37e4d9c58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="518adc52081d41724932b41bc132e4d50a352b86">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.6.1_e506b8b1bf751474f6213af1dab5bfe9fa88c478.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_1286ea10c5d0667885f43c26e50675294c869171.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-9.6.1_d61a7e0428b619ab88a145c51b9d35caa7933d71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-9.6.1_be1fcdd75cdc1b91a8dfae7fe8bdcb38f3624936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-24.0.0_ecd65dc8b2fa4c0c8690d245207234dda53024b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.6.1_6c4db6b0777e8c74ed7c48197db9537120eb7048.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.6.1_b4516a23c6c15550f06a57d3b4e6e6d704237aa8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-awareness-9.6.1_1eac9b65d9cc4e59977055eaebfb4dc83b1c9d6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.6.1_5ba66e97c8f4d537724cca5f8475e4ee46fef1e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.6.1_d79cdbf3148210dc6584ebc0fdb6486ee31b465a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-9.6.1_335ff4f6d67ed43b239b93a778d1f7b7cdb78a4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.1_4c53d72ee9f9752f6a2d04a548849e900f0ae5a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.6.1_57bff149f8560a91b6561bf058e910c073a3951b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_38391ff49b3052d7a84a6f20d75ab3e3f5cb19c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-9.6.1_233e25289490010e617d69cc7286d09a3936ffbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-9.6.1_bf81ac958de52f0bd301c3906d741b6aefa51096.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_9d3f00ce756dd1de38a6b02c2b98c2ff18ad958a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.6.1_8b6d38c98a46d8a61473a9e0ebae72c5c426ec19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.6.1_cce5601dcbebc4d87e6814253e277c911c74a9f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-9.6.1_17fe338793b67fc6f60c39f5ea443e70aadb9258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-framework-9.6.1_b295fc68ce2bbee24f0929d930d14f8733b8ac65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.6.1_db8308480430079de01e0554aba969c5ab1f6861.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.6.1_b3591632f15effe50de4a3bffda7c7b6c301a5b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.6.1_881722b29e5410bf88480c2496a482f238f3576f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_6efb67b176b93da9b265f1aad8500c3ec106579a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.6.1_3da486113648daa9e86c202464a24c982c7cdb8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_d84f5355ba0abe11d05068988a296afe2f6306aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.6.1_a32617fdd910a46f79e314685ec2028600cc4937.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.6.1_5c778f3b947225f030efee053d240bad546161b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.6.1_d78c34cadce79a12c0da4e4d893a59a535982be6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-9.6.1_be1fcdd75cdc1b91a8dfae7fe8bdcb38f3624936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_cc5bbc0550514ff1d86415febad23c7e51473654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-9.6.1_57b4676a1b8d5c89469f272329bc585181ce2640.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.1_4c53d72ee9f9752f6a2d04a548849e900f0ae5a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-9.6.1_233e25289490010e617d69cc7286d09a3936ffbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.6.1_5ba66e97c8f4d537724cca5f8475e4ee46fef1e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-24.0.0_ecd65dc8b2fa4c0c8690d245207234dda53024b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_38391ff49b3052d7a84a6f20d75ab3e3f5cb19c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_9d3f00ce756dd1de38a6b02c2b98c2ff18ad958a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-9.6.1_bf81ac958de52f0bd301c3906d741b6aefa51096.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_92fb4bba3ce15b9f628658a1c2a84dfdcb703703.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-9.6.1_9e989fab77b1290b28996ed40ffbc2b928fced5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.6.1_57bff149f8560a91b6561bf058e910c073a3951b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.1_a833ec6b825b381e65888bc10d3bc8375178a851.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-24.0.0_e9382662e0dfb34eb7ccc8be74fd1c192917b81f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.6.1_c5d69014b2e9850f45b4b12988c803b2a92a0fa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.6.1_3227497aa5218e38a1571a2c592ab431286b532e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_e22e49f5b2445a82abf96236a66b71269bf8203b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.6.1_cce5601dcbebc4d87e6814253e277c911c74a9f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_6efb67b176b93da9b265f1aad8500c3ec106579a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.6.1_b0a3f565d25a595839cc5bd7bcb135111362f292.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.6.1_e3a6ca7f90ebff12c02d2a5fdab8d5694f2ae4e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-9.6.1_17fe338793b67fc6f60c39f5ea443e70aadb9258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_d84f5355ba0abe11d05068988a296afe2f6306aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.6.1_3da486113648daa9e86c202464a24c982c7cdb8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.6.1_a32617fdd910a46f79e314685ec2028600cc4937.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.6.1_471549f6f1db852e2013c7b1c44c0cf9e11e240c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.6.1_881722b29e5410bf88480c2496a482f238f3576f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-9.6.1_27f2bfcef12117e671cb25de309c39ddfee0510f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a136366045678579300d161de97c2211c4c4f7a0">
+        <dex dex="D:\Andrew\My Documents\GitHub\parkingswap\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-9.6.1_69dfc380625273b6d26f0349bc189a50c5934192.jar" />
+    </item>
+
+</items>
