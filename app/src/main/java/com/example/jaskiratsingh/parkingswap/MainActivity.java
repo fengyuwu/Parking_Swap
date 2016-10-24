@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+
+        }
+
+        if(id == R.id.action_info){
+            startActivity(new Intent("userinfo_class.user"));
         }
 
         return super.onOptionsItemSelected(item);
@@ -51,3 +56,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+
+

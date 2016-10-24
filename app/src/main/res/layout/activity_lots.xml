@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/scroll">-->
-
-        <!--
-         Changed the layout a bit, and added new textViews.- Fengyu Wu
-         -->
-
-    <!--
-        I changed the text views to Buttons so we could use them for clickable functionality
-        and also added the scrollview function as well. -Matt Norton
-    -->
+<!--
+ Changed the layout a bit, and added new textViews.- Fengyu Wu
+-->
 
 
-    <!--
-    Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Making it easier for the user to switch Lots
-    - Jaskirat Singh
-    -->
+<!--
+ Changed the layout a bit, and added new textViews.- Fengyu Wu
+ -->
+
+<!--
+    I changed the text views to Buttons so we could use them for clickable functionality
+    and also added the scrollview function as well. -Matt Norton
+-->
+
+
+<!--
+Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Making it easier for the user to switch Lots
+- Jaskirat Singh
+-->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -362,10 +362,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-
-
-
-
                         <Button
                             android:layout_width="350dp"
                             android:text="Abbott A  "
@@ -374,9 +370,11 @@
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/Abbott_A" />
+                            android:id="@+id/Abbott_A"
+                            android:onClick="onButtonClickSouth"/>
 
                         <Button
+                            android:onClick="onButtonClickSouth"
                             android:layout_width="350dp"
                             android:text="Clark "
                             android:textSize="20dp"
@@ -394,9 +392,11 @@
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/Main_Bailey" />
+                            android:id="@+id/Main_Bailey"
+                            android:onClick="onButtonClickSouth"/>
 
                         <Button
+                            android:onClick="onButtonClickSouth"
                             android:layout_width="350dp"
                             android:text="Parker  "
                             android:textSize="20dp"
@@ -406,6 +406,7 @@
                             android:layout_marginTop="3dp"
                             android:id="@+id/Parker" />
                         <Button
+                            android:onClick="onButtonClickSouth"
                             android:layout_width="350dp"
                             android:text="Sherman "
                             android:textSize="20dp"
@@ -415,6 +416,7 @@
                             android:layout_marginTop="3dp"
                             android:id="@+id/Sherman" />
                         <Button
+                            android:onClick="onButtonClickSouth"
                             android:layout_width="350dp"
                             android:text="Townsend "
                             android:textSize="20dp"
@@ -433,3 +435,4 @@
         </LinearLayout>
     </TabHost>
 </LinearLayout>
+
