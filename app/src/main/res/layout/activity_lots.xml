@@ -70,8 +70,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/Button1"
-                            android:onClick="onButtonClickArena"/>
+                            android:id="@+id/Arena"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -81,7 +81,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickAlumniA" />
+                            android:id="@+id/AlumniA"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -91,7 +92,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickAlumniB" />
+                            android:id="@+id/AlumniB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -101,7 +103,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickAlumniC" />
+                            android:id="@+id/AlumniC"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -111,7 +114,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickBairdA" />
+                            android:id="@+id/BairdA"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -121,7 +125,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickCookeA" />
+                            android:id="@+id/CookeA"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -131,7 +136,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickCookeB" />
+                            android:id="@+id/CookeB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -141,7 +147,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickCrofts" />
+                            android:id="@+id/Crofts"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -151,7 +158,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickFargo" />
+                            android:id="@+id/Fargo"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -161,7 +169,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickGovernorsB" />
+                            android:id="@+id/GovernorsB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -171,7 +180,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickGovernorsC" />
+                            android:id="@+id/GovernorsC"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -181,7 +191,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickGovernorsD" />
+                            android:id="@+id/GovernorsD"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -191,7 +202,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickGovernorsE" />
+                            android:id="@+id/GovernorsE"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -201,7 +213,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickHochstetterB" />
+                            android:id="@+id/HochstetterB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -211,7 +224,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickJacobsB" />
+                            android:id="@+id/JacobsB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -221,7 +235,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickJacobsC" />
+                            android:id="@+id/JacobsC"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -231,7 +246,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickJarvisA" />
+                            android:id="@+id/JarvisA"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -241,7 +257,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickJarvisB" />
+                            android:id="@+id/JarvisB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -251,7 +268,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickKetter" />
+                            android:id="@+id/Ketter"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -261,7 +279,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickLakeLaSalle" />
+                            android:id="@+id/LakeLaSalle"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -271,7 +290,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickRedJacket" />
+                            android:id="@+id/RedJacket"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -281,7 +301,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickRichmondA" />
+                            android:id="@+id/RichmondA"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -291,7 +312,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickRichmondB" />
+                            android:id="@+id/RichmondB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -301,7 +323,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickSpecialEventParking" />
+                            android:id="@+id/SpecialEventParking"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -311,7 +334,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickStadium" />
+                            android:id="@+id/Stadium"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -321,7 +345,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickSleeA" />
+                            android:id="@+id/SleeA"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -331,7 +356,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickSleeB" />
+                            android:id="@+id/SleeB"
+                            android:onClick="onButtonClickNorth"/>
 
                         <Button
                             android:layout_width="350dp"
@@ -341,7 +367,8 @@ Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Maki
                             android:textColor="@android:color/background_light"
                             android:textAlignment="center"
                             android:layout_marginTop="3dp"
-                            android:id="@+id/onButtonClickSpaulding" />
+                            android:id="@+id/Spaulding"
+                            android:onClick="onButtonClickNorth"/>
 
 
 
