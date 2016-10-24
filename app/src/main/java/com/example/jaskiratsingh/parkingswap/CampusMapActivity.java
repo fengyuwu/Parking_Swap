@@ -73,8 +73,51 @@ public class CampusMapActivity extends AppCompatActivity
         else {
             mMap.setMyLocationEnabled(true);
         }
-        LatLng UB = new LatLng(42.999,-78.791585);
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(UB));
+        LatLng Abbot = new LatLng(42.955415,-78.819475);
+        LatLng Clark = new LatLng(42.950364,-78.816095);
+        LatLng Main_Bailey = new LatLng(42.95775,-78.816411);
+        LatLng Parker = new LatLng(42.950376,-78.821787);
+        LatLng Sherman = new LatLng(42.951874,-78.814746);
+        LatLng Townsend = new LatLng(42.952361,-78.822779);
+
+        if (LotActivity.ID.equals("Abbot_A")){
+            //move map camera
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Abbot));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Clark")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Clark));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Main_Bailey")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Main_Bailey));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Parker")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Parker));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Sherman")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Sherman));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Townsend")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Townsend));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+
+
+        //stop location updates
+        if (mGoogleApiClient != null) {
+            LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+        }
+
     }
 
     @Override
@@ -88,51 +131,6 @@ public class CampusMapActivity extends AppCompatActivity
 
     @Override
     public void onLocationChanged(Location location) {
-        LatLng Abbot = new LatLng(42.955415,-78.819475);
-        LatLng Clark = new LatLng(42.950364,-78.816095);
-        LatLng Main_Bailey = new LatLng(42.95775,-78.816411);
-        LatLng Parker = new LatLng(42.950376,-78.821787);
-        LatLng Sherman = new LatLng(42.951874,-78.814746);
-        LatLng Townsend = new LatLng(42.952361,-78.822779);
-        String ID = ((findButton)this.getApplication()).getButtonID();
-
-        if (ID.equals("Abbot_A")){
-            //move map camera
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(Abbot));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
-
-        }
-        else if(ID.equals("Clark")){
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(Clark));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
-
-        }
-        else if(ID.equals("Main_Bailey")){
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(Main_Bailey));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
-
-        }
-        else if(ID.equals("Parker")){
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(Parker));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
-
-        }
-        else if(ID.equals("Sherman")){
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(Sherman));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
-
-        }
-        else if(ID.equals("Townsend")){
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(Townsend));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
-
-        }
-
-
-        //stop location updates
-        if (mGoogleApiClient != null) {
-            LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
-        }
 
     }
 
