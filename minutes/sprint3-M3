@@ -21,7 +21,11 @@ issues: [ # Post any issues here. Issues that cannot be addressed by the group s
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
+-Google+ sign in was scratched for now. A switch to facebook sign in was made.  Hopefully we get Google+ sign in 
+  working in addition to Facebook sign in before the end of sprint 5. 
 -Everyone on back end went through the "Hello world" for python tutorial for creating a lambda function.
   Issues with installing the bundle for python and pip were resolved by installing each piece manually.
-  Everyone succesfully configured their triggers.  
+  Everyone succesfully configured their triggers and completed the tutorial. 
+-Individual preliminary tasks for the back-end were assigned.
+  
   
