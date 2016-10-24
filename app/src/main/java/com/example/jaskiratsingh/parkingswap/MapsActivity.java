@@ -7,11 +7,9 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.webkit.PermissionRequest;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -23,10 +21,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends AppCompatActivity
         implements OnMapReadyCallback,
@@ -80,6 +75,7 @@ public class MapsActivity extends AppCompatActivity
         }
         LatLng UB = new LatLng(42.999,-78.791585);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(UB));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
     }
 
     @Override
@@ -95,9 +91,8 @@ public class MapsActivity extends AppCompatActivity
     public void onLocationChanged(Location location) {
 
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
-        //move map camera
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(11));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(17));
 
         //stop location updates
         if (mGoogleApiClient != null) {

@@ -7,11 +7,9 @@ package com.example.jaskiratsingh.parkingswap;
         import android.support.annotation.NonNull;
         import android.support.annotation.Nullable;
         import android.support.v4.app.ActivityCompat;
-        import android.support.v4.app.FragmentActivity;
         import android.os.Bundle;
         import android.support.v4.content.ContextCompat;
         import android.support.v7.app.AppCompatActivity;
-        import android.webkit.PermissionRequest;
         import android.widget.Toast;
 
         import com.google.android.gms.common.ConnectionResult;
@@ -23,12 +21,9 @@ package com.example.jaskiratsingh.parkingswap;
         import com.google.android.gms.maps.GoogleMap;
         import com.google.android.gms.maps.OnMapReadyCallback;
         import com.google.android.gms.maps.SupportMapFragment;
-        import com.google.android.gms.maps.model.BitmapDescriptorFactory;
         import com.google.android.gms.maps.model.LatLng;
-        import com.google.android.gms.maps.model.Marker;
-        import com.google.android.gms.maps.model.MarkerOptions;
 
-public class LeaveActivity extends AppCompatActivity
+public class CampusMapActivity extends AppCompatActivity
         implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
@@ -45,7 +40,7 @@ public class LeaveActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_leave);
+        setContentView(R.layout.activity_map_campus);
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission();
         }
@@ -77,11 +72,51 @@ public class LeaveActivity extends AppCompatActivity
         }
         else {
             mMap.setMyLocationEnabled(true);
+        }
+        LatLng Abbot = new LatLng(42.955415,-78.819475);
+        LatLng Clark = new LatLng(42.950364,-78.816095);
+        LatLng Main_Bailey = new LatLng(42.95775,-78.816411);
+        LatLng Parker = new LatLng(42.950376,-78.821787);
+        LatLng Sherman = new LatLng(42.951874,-78.814746);
+        LatLng Townsend = new LatLng(42.952361,-78.822779);
+
+        if (LotActivity.ID.equals("Abbot_A")){
+            //move map camera
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Abbot));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Clark")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Clark));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Main_Bailey")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Main_Bailey));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Parker")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Parker));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Sherman")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Sherman));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
+        }
+        else if(LotActivity.ID.equals("Townsend")){
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(Townsend));
+            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         }
 
-        //TODO: change that to user location
 
+        //stop location updates
+        if (mGoogleApiClient != null) {
+            LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+        }
 
     }
 
@@ -91,6 +126,11 @@ public class LeaveActivity extends AppCompatActivity
 
     @Override
     public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
 
     }
 
@@ -123,6 +163,7 @@ public class LeaveActivity extends AppCompatActivity
     }
 
 
+
     @Override
     public void onRequestPermissionsResult(
             int requestCode, String permissions[], int[] grantResults) {
@@ -146,35 +187,4 @@ public class LeaveActivity extends AppCompatActivity
         }
     }
 
-
-
-    @Override
-    public void onLocationChanged(Location leave) {
-
-        LatLng UB = new LatLng(mLastLoc.getLatitude(),mLastLoc.getLongitude());
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(UB, 18));
-        Marker user = mMap.addMarker(new MarkerOptions().position(UB).title("I'm Leaving"));
-        user.showInfoWindow();
-
-        //mMap.clear();
-
-        //MarkerOptions mp = new MarkerOptions();
-
-        //mp.position(new LatLng(leave.getLatitude(), leave.getLongitude()));
-
-        //mp.title("my position");
-
-        //mMap.addMarker(mp);
-
-        //mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
-        //        new LatLng(leave.getLatitude(), leave.getLongitude()), 5
-        //));
-
-
-        System.out.println(leave.getLatitude()+"\t\t"+leave.getLongitude());
-
-        //Marker user = mMap.addMarker(new MarkerOptions().position(new LatLng(leave.getLatitude(), leave.getLongitude())).title("I'm Leaving"));
-        //user.showInfoWindow();
-
-    }
 }
