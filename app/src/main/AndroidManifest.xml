@@ -59,7 +59,8 @@
 
         <activity
             android:name=".LotActivity"
-            android:label="">
+            android:label=""
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="Lot_class.Lot" />
 
@@ -68,10 +69,10 @@
         </activity>
 
         <activity
-            android:name=".ArenaLot"
+            android:name=".CampusMapActivity"
             android:label="">
             <intent-filter>
-                <action android:name="Arena_class.Arena" />
+                <action android:name="Campus_class.Campus" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -81,6 +82,16 @@
             android:label="">
             <intent-filter>
                 <action android:name="Leave_class.Leave" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".user_info_activity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="userinfo_class.user" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

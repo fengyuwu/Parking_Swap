@@ -12,6 +12,7 @@ public class findButton extends Application {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static String IDss;
 
     public String getButtonID() {
@@ -21,16 +22,22 @@ public class findButton extends Application {
 
 =======
     private String ID;
+=======
+    public static String IDss;
+>>>>>>> jsingh16
 
     public String getButtonID() {
 
-        return ID;
+        return IDss;
     }
 
+<<<<<<< HEAD
     public void setID(String k) {
         this.ID = k;
     }
 >>>>>>> origin/develop
+=======
+>>>>>>> jsingh16
 
     @Override
     protected void attachBaseContext(Context base) {

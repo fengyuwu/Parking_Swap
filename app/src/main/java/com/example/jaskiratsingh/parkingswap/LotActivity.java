@@ -20,6 +20,9 @@ import android.widget.TabHost;
 public class LotActivity extends AppCompatActivity{
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> jsingh16
     public static String ID;
 
     public String getButtonID() {
@@ -27,8 +30,11 @@ public class LotActivity extends AppCompatActivity{
         return ID;
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
+=======
+>>>>>>> jsingh16
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +60,7 @@ public class LotActivity extends AppCompatActivity{
     public void onButtonClickSouth(View v){
         switch (v.getId()){
             case R.id.Abbott_A:
+<<<<<<< HEAD
 <<<<<<< HEAD
                 LotActivity.ID = "Abbot_A";
                 startActivity(new Intent("Campus_class.Campus"));
@@ -86,26 +93,29 @@ public class LotActivity extends AppCompatActivity{
 
 =======
                 //((findButton)this.getApplication()).setID("Abbot_A");
+=======
+                LotActivity.ID = "Abbot_A";
+>>>>>>> jsingh16
                 startActivity(new Intent("Campus_class.Campus"));
                 break;
             case R.id.Clark:
-               // ((findButton)this.getApplication()).setID("Clark");
+                LotActivity.ID = "Clark";
                 startActivity(new Intent("Campus_class.Campus"));
                 break;
             case R.id.Main_Bailey:
-                //((findButton)this.getApplication()).setID("Main_Bailey");
+                LotActivity.ID = "Main_Bailey";
                 startActivity(new Intent("Campus_class.Campus"));
                 break;
             case R.id.Parker:
-                //((findButton)this.getApplication()).setID("Parker");
+                LotActivity.ID = "Parker";
                 startActivity(new Intent("Campus_class.Campus"));
                 break;
             case R.id.Sherman:
-                //((findButton)this.getApplication()).setID("Sherman");
+                LotActivity.ID = "Sherman";
                 startActivity(new Intent("Campus_class.Campus"));
                 break;
             case R.id.Townsend:
-                //((findButton)this.getApplication()).setID("Townsend");
+                LotActivity.ID = "Townsend";
                 startActivity(new Intent("Campus_class.Campus"));
                 break;
 
