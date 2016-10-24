@@ -18,7 +18,7 @@
         android:id="@+id/Find"
         android:text="Find By Lots"
         android:textColor="@android:color/background_light"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorPrimary"
         android:onClick="onButtonClickListener"
         android:layout_alignBottom="@+id/Leave"
         android:layout_centerHorizontal="true"
