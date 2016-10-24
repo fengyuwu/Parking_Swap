@@ -14,18 +14,21 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
   {ubit: <fengyuwu>, progress: None},
-  {ubit: <tjquinn>, progress: }
+  {ubit: <tjquinn>, progress: Learned how to create a lambda function}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
-  {ubit: <ubit2>, issue: },
+  {ubit: <tjquinn>, issue: Google+ sign in still not working},
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
--Google+ sign in was scratched for now. A switch to facebook sign in was made.  Hopefully we get Google+ sign in 
-  working in addition to Facebook sign in before the end of sprint 5. 
--Everyone on back end went through the "Hello world" for python tutorial for creating a lambda function.
+-Google+ sign in was scratched for now. A switch to facebook sign in was made. Users can now sign into 
+ParkingSwap using their facebook account. Hopefully we get Google+ sign in working in addition to Facebook
+sign in before the end of sprint 5. 
+
+-Everyone on back end went through the "Hello world(python)" tutorial for creating a lambda function.
   Issues with installing the bundle for python and pip were resolved by installing each piece manually.
-  Everyone succesfully configured their triggers and completed the tutorial. 
+  Everyone succesfully configured their trigger and completed the tutorial. 
+  
 -Individual preliminary tasks for the back-end were assigned.  Each Group member should be able to create an issue 
 on github for this sprint after meeting today.  
   
