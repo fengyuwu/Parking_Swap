@@ -11,6 +11,7 @@ import android.support.multidex.MultiDex;
 public class findButton extends Application {
 
 
+<<<<<<< HEAD
     public static String IDss;
 
     public String getButtonID() {
@@ -18,6 +19,18 @@ public class findButton extends Application {
         return IDss;
     }
 
+=======
+    private String ID;
+
+    public String getButtonID() {
+
+        return ID;
+    }
+
+    public void setID(String k) {
+        this.ID = k;
+    }
+>>>>>>> origin/develop
 
     @Override
     protected void attachBaseContext(Context base) {

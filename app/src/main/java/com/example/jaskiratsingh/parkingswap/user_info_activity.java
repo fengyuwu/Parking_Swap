@@ -12,6 +12,10 @@ public class user_info_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.user_info_activity);
+=======
+        setContentView(R.layout.user_info);
+>>>>>>> origin/develop
     }
 }

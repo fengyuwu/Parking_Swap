@@ -19,6 +19,7 @@ import android.widget.TabHost;
 
 public class LotActivity extends AppCompatActivity{
 
+<<<<<<< HEAD
     public static String ID;
 
     public String getButtonID() {
@@ -26,6 +27,8 @@ public class LotActivity extends AppCompatActivity{
         return ID;
     }
 
+=======
+>>>>>>> origin/develop
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +54,7 @@ public class LotActivity extends AppCompatActivity{
     public void onButtonClickSouth(View v){
         switch (v.getId()){
             case R.id.Abbott_A:
+<<<<<<< HEAD
                 LotActivity.ID = "Abbot_A";
                 startActivity(new Intent("Campus_class.Campus"));
                 break;
@@ -80,6 +84,37 @@ public class LotActivity extends AppCompatActivity{
         }
 
 
+=======
+                //((findButton)this.getApplication()).setID("Abbot_A");
+                startActivity(new Intent("Campus_class.Campus"));
+                break;
+            case R.id.Clark:
+               // ((findButton)this.getApplication()).setID("Clark");
+                startActivity(new Intent("Campus_class.Campus"));
+                break;
+            case R.id.Main_Bailey:
+                //((findButton)this.getApplication()).setID("Main_Bailey");
+                startActivity(new Intent("Campus_class.Campus"));
+                break;
+            case R.id.Parker:
+                //((findButton)this.getApplication()).setID("Parker");
+                startActivity(new Intent("Campus_class.Campus"));
+                break;
+            case R.id.Sherman:
+                //((findButton)this.getApplication()).setID("Sherman");
+                startActivity(new Intent("Campus_class.Campus"));
+                break;
+            case R.id.Townsend:
+                //((findButton)this.getApplication()).setID("Townsend");
+                startActivity(new Intent("Campus_class.Campus"));
+                break;
+
+
+
+        }
+
+
+>>>>>>> origin/develop
 
     }
 }
