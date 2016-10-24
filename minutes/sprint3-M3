@@ -1,6 +1,6 @@
 date: October 24, 2016
 meeting_type: group
-attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <tjquinn>]
 absent: [<fengyuwu>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
@@ -21,4 +21,7 @@ issues: [ # Post any issues here. Issues that cannot be addressed by the group s
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
--Everyone on back end went through the "
+-Everyone on back end went through the "Hello world" for python tutorial for creating a lambda function.
+  Issues with installing the bundle for python and pip were resolved by installing each piece manually.
+  Everyone succesfully configured their triggers.  
+  
