@@ -8,7 +8,7 @@ excused_absences: [ # Any legitamite excuses for absent team members
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <pkearney>, progress: None},
-  {ubit: <jsingh27>, progress: Added Tabhost to LotActivity, also added south campus Parking lots with buttons},
+  {ubit: <jsingh27>, progress: Worked on adding Tabhost to LotActivity to distinguish south and north campus lots with an easy to use GUI, also added south campus Parking lots with buttons},
   {ubit: <mrnorton>, progress: Finished adding all lot buttons and starting the link to individual lots with the Google Maps API (Java and 
                       XML code).},
   {ubit: <ewyang>, progress: None},
