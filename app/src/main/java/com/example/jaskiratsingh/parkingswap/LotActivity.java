@@ -21,6 +21,9 @@ public class LotActivity extends AppCompatActivity{
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> jsingh16
 =======
 >>>>>>> jsingh16
     public static String ID;
@@ -31,8 +34,11 @@ public class LotActivity extends AppCompatActivity{
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
+=======
+>>>>>>> jsingh16
 =======
 >>>>>>> jsingh16
 
@@ -60,6 +66,7 @@ public class LotActivity extends AppCompatActivity{
     public void onButtonClickSouth(View v){
         switch (v.getId()){
             case R.id.Abbott_A:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 LotActivity.ID = "Abbot_A";
@@ -93,6 +100,9 @@ public class LotActivity extends AppCompatActivity{
 
 =======
                 //((findButton)this.getApplication()).setID("Abbot_A");
+=======
+                LotActivity.ID = "Abbot_A";
+>>>>>>> jsingh16
 =======
                 LotActivity.ID = "Abbot_A";
 >>>>>>> jsingh16

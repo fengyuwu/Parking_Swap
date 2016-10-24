@@ -13,6 +13,7 @@ public class findButton extends Application {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static String IDss;
 
     public String getButtonID() {
@@ -25,6 +26,9 @@ public class findButton extends Application {
 =======
     public static String IDss;
 >>>>>>> jsingh16
+=======
+    public static String IDss;
+>>>>>>> jsingh16
 
     public String getButtonID() {
 
@@ -32,10 +36,13 @@ public class findButton extends Application {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void setID(String k) {
         this.ID = k;
     }
 >>>>>>> origin/develop
+=======
+>>>>>>> jsingh16
 =======
 >>>>>>> jsingh16
 
