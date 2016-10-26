@@ -1,15 +1,28 @@
 package com.example.jaskiratsingh.parkingswap;
 
-import android.content.Context;
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.multidex.MultiDex;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
+
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.maps.GoogleMap;
+
 public class MainActivity extends AppCompatActivity {
+
+    GoogleMap mGoogleMap;
+    GoogleApiClient mGoogleApiClient;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,12 +47,11 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            //Created setting page with buttons Donation/Sound/Notification/Theme/Lots Preferences
+            //setContentView(R.layout.setting_activity); !!!!!!!Try to start a activity to make action bar appear F.W.
+            startActivity(new Intent("Set_class.Set"));
+
             return true;
-
-        }
-
-        if(id == R.id.action_info){
-            startActivity(new Intent("userinfo_class.user"));
         }
 
         return super.onOptionsItemSelected(item);
@@ -48,13 +60,4 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(new Intent("Find_class.Find"));
     }
-
-    public void onButtonClickLeave(View v){
-
-        startActivity(new Intent("Leave_class.Leave"));
-    }
-
-
 }
-
-
