@@ -14,6 +14,7 @@ public class ParkServer1
    {
 	    int portNum = 922;
 		ServerSocket server = new ServerSocket(portNum);
+		System.out.println("Welcome to the ParkingServer");
 
 		while(true)
 		{
