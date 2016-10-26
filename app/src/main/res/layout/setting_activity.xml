@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+     Changed the layout a bit, and added new textviews.- Fengyu Wu
+     -->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/Lots_Preferences"
+            android:layout_marginTop="10dp"
+            android:text="Lots Preferences "
+            android:textColor="@android:color/background_light"
+            android:background="?attr/colorPrimary"
+            android:onClick="onButtonClickListenerLotsPreferences" />
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/Theme"
+            android:layout_marginTop="10dp"
+            android:text="Theme"
+            android:textColor="@android:color/background_light"
+            android:background="?attr/colorPrimary"
+            android:onClick="onButtonClickListenerTheme" />
+
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/Notification"
+            android:layout_marginTop="10dp"
+            android:text="Notification"
+            android:textColor="@android:color/background_light"
+            android:background="?attr/colorPrimary"
+            android:onClick="onButtonClickListenerNotification" />
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/Sound"
+            android:layout_marginTop="10dp"
+            android:text="Sound"
+            android:textColor="@android:color/background_light"
+            android:background="?attr/colorPrimary"
+            android:onClick="onButtonClickListenerSound" />
+
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/Donation"
+            android:layout_marginTop="10dp"
+            android:text="Donation"
+            android:textColor="@android:color/background_light"
+            android:background="?attr/colorPrimary"
+            android:onClick="onButtonClickListenerDonation" />
+
+
+
+
+
+
+    </TableLayout>
+
+
+
+</RelativeLayout>
