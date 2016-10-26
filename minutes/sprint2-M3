@@ -1,6 +1,6 @@
 date: October 5, 2016
 meeting_type: ta, 
-attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <xenalin>, <fengyuwu>, <tjquinn>]
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
 absent: [<ubit>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
@@ -8,13 +8,13 @@ excused_absences: [ # Any legitamite excuses for absent team members
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <pkearney>, progress: Switching Backend from DJango to java base & utilize AWS backend led by Andrew M },
-  {ubit: <jsingh27>, progress: None},
+  {ubit: <jsingh27>, progress: Completed my issue for mylocation button in google maps api which was implemented and working properly },
   {ubit: <mrnorton>, progress: None},
-  {ubit: <ewyang>, progress: None},
+  {ubit: <ewyang>, progress: Decide to use AWS a java based back end, instead of buiding our own using Django},
   {ubit: <mjkall>, progress: None},
-  {ubit: <xenalin>, progress: None},
+  {ubit: <amingola>, progress: Started an AWS account, explored various modules, begun researching tutorials/demos to start interfacing with the platform},
   {ubit: <fengyuwu>, progress: None},
-  {ubit: <tjquinn>, progress: Record Minutes,}
+  {ubit: <tjquinn>, progress: User class defined, Record Minutes,}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
   {ubit: <ubit2>, issue: },
@@ -24,4 +24,4 @@ Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
   -Github issues assigned. 
   -Front/back end team members have been changed since last ta meeting
     new front end team: Jsingh27, mrnorton, feng
-    new back end team: pkearney, ewyang, mjkall, xenalin, tjquinn
+    new back end team: pkearney, ewyang, mjkall, amingola, tjquinn

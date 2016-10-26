@@ -15,13 +15,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 
-//import com.google.android.gms.common.api.GoogleApiClient;
-//import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.maps.GoogleMap;
 
 public class MainActivity extends AppCompatActivity {
 
-  //  GoogleMap mGoogleMap;
-   // GoogleApiClient mGoogleApiClient;
+    GoogleMap mGoogleMap;
+    GoogleApiClient mGoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            //Created setting page with buttons Donation/Sound/Notification/Theme/Lots Preferences
+            //setContentView(R.layout.setting_activity); !!!!!!!Try to start a activity to make action bar appear F.W.
+            startActivity(new Intent("Set_class.Set"));
+
             return true;
         }
 

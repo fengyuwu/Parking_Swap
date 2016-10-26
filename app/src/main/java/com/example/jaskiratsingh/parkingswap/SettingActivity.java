@@ -8,27 +8,17 @@ import android.view.View;
 /**
  * Created by jaskiratsingh on 9/14/16.
  */
-public class FindActivity extends AppCompatActivity{
+public class SettingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_find);
+        setContentView(R.layout.setting_activity); //SEND YOU TO THE PLAIN XML FILE
     }
 
 
+    //F- Hnadle setting buttos on click IN HHIS CLASS.
+    public void onButtonClickListenerLotsPreferences(View v){
+        setContentView(R.layout.activity_lots);
 
-
-    public void onButtonClickLot(View v){
-
-        startActivity(new Intent("Lot_class.Lot"));
     }
-
-    public void onButtonClickMap(View v){
-
-        startActivity(new Intent("Map_class.Map"));
-    }
-
 }
-
-
-
