@@ -11,7 +11,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <jsingh27>, progress: None},
   {ubit: <mrnorton>, progress: Linked all of the North Campus lots to their respective coordinates, so once you click a lot it will
                                 take the user to the desired lot.},
-  {ubit: <ewyang>, progress: None},
+  {ubit: <ewyang>, progress: Learn to creat lambda function},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
   {ubit: <fengyuwu>, progress: None},
