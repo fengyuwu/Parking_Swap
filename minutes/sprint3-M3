@@ -7,7 +7,7 @@ excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit6>, reason: }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
-  {ubit: <pkearney>, progress: None},
+  {ubit: <pkearney>, progress:complted Lambda tutorials for python functions and created beanstalk server},
   {ubit: <jsingh27>, progress: None},
   {ubit: <mrnorton>, progress: Linked all of the North Campus lots to their respective coordinates, so once you click a lot it will
                                 take the user to the desired lot.},
