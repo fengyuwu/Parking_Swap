@@ -8,7 +8,9 @@ public class ParkClient
 	public static void main(String [] args)throws IOException
 	{
 
-		Socket s = new Socket( "localhost", 922);
+		System.out.println("attempt");
+		Socket s = new Socket( "52.23.175.220", 4922);
+		System.out.println("tried");
 		InputStream instream = s.getInputStream();
 		OutputStream outstream  = s.getOutputStream();
 		Scanner in = new Scanner(instream);
