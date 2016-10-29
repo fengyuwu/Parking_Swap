@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll">-->
+
+        <!--
+         Changed the layout a bit, and added new textViews.- Fengyu Wu
+         -->
+
+    <!--
+        I changed the text views to Buttons so we could use them for clickable functionality
+        and also added the scrollview function as well. -Matt Norton
+    -->
+
+
+    <!--
+    Changed the Layout to Tabs also added South Campus Lots, instead of Buttons Making it easier for the user to switch Lots
+    - Jaskirat Singh
+    -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jaskiratsingh.parkingswap.LotActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:elevation="19dp" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/scroll1">
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Arena"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/Button1"
+                            android:onClick="onButtonClickArena"/>
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Alumni A"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickAlumniA" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Alumni B"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickAlumniB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Alumni C"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickAlumniC" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Baird A"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickBairdA" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Cooke A"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickCookeA" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Cooke B"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickCookeB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Crofts"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickCrofts" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Fargo"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickFargo" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Governors B"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickGovernorsB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Governors C"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickGovernorsC" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Governors D"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickGovernorsD" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Governors E"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickGovernorsE" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Hochstetter B(Commuter Only)"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickHochstetterB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Jacobs B"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickJacobsB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Jacobs C"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickJacobsC" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Jarvis A(Commuter Only)"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickJarvisA" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Jarvis B"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickJarvisB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Ketter"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickKetter" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Lake LaSalle"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickLakeLaSalle" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Red Jacket"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickRedJacket" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Richmond A"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickRichmondA" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Richmond B"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickRichmondB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Special Event Parking"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickSpecialEventParking" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Stadium"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickStadium" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Slee A"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickSleeA" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Slee B"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickSleeB" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Spaulding"
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/onButtonClickSpaulding" />
+
+
+
+
+
+
+
+                    </TableLayout>
+                </ScrollView>
+
+                <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/scroll2">
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Abbott A  "
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/Abbott_A" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Clark "
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/Clark" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Main-Bailey  "
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/Main_Bailey" />
+
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Parker  "
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/Parker" />
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Sherman "
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/Sherman" />
+                        <Button
+                            android:layout_width="350dp"
+                            android:text="Townsend "
+                            android:textSize="20dp"
+                            android:background="?attr/colorPrimary"
+                            android:textColor="@android:color/background_light"
+                            android:textAlignment="center"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/Townsend" />
+
+
+                    </TableLayout>
+                </ScrollView>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

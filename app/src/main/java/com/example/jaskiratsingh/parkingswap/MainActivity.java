@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            //Created setting page with buttons Donation/Sound/Notification/Theme/Lots Preferences
+            //setContentView(R.layout.setting_activity); !!!!!!!Try to start a activity to make action bar appear F.W.
+            startActivity(new Intent("Set_class.Set"));
+
             return true;
         }
 
