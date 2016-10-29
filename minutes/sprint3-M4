@@ -10,7 +10,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <pkearney>, progress: working on concurrency locks to protect server global variables},
   {ubit: <jsingh27>, progress: None},
   {ubit: <mrnorton>, progress: None},
-  {ubit: <ewyang>, progress: None},
+  {ubit: <ewyang>, progress: Create a simple calculator app that will to sent value to lambda function and recieve result back},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
   {ubit: <fengyuwu>, progress: None},
