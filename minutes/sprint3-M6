@@ -8,7 +8,7 @@ excused_absences: [ # Any legitamite excuses for absent team members
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <pkearney>, progress:Created EC2 server,  made security rules for connection,  test multi user connection to server class},
-  {ubit: <jsingh27>, progress: None},
+  {ubit: <jsingh27>, progress: Incorporated the Server Code written by Pat into the Main App, so the App can use the code and communicate between different clients that use the app on their phone},
   {ubit: <mrnorton>, progress: Worked on updating the GUI to have a toolbar layout with all of the user's application options.},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
