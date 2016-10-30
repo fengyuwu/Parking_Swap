@@ -14,7 +14,7 @@ android {
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion "24.0.3"
 
     defaultConfig {
         applicationId "com.parkingswap"
@@ -45,7 +45,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-maps:9.6.1'
     compile 'com.google.android.gms:play-services-plus:9.6.1'
     compile 'com.android.support:multidex:1.0.0'
-    compile 'com.android.support:design:22.2.0'
+    compile 'com.android.support:design:23.2.0'
     compile('com.amazonaws:aws-android-sdk-core:2.2.18')
     compile('com.amazonaws:aws-android-sdk-cognito:2.2.18')
     compile 'com.facebook.android:facebook-android-sdk:4.6.0'
