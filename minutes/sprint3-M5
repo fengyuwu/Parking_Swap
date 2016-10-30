@@ -17,7 +17,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <tjquinn>, progress: None}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
-  {ubit: <tjquinn>, issue: },
+  {ubit: <ubit>, issue: },
   {ubit: <ewyang>, issue: cant make lambda function take user data}
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
