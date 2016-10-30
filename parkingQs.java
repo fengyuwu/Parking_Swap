@@ -105,3 +105,4 @@ public class Queues {
 		{ // server coming soon
 			Queue<String> Arena = new LinkedList<String>();
 		}
+	}
