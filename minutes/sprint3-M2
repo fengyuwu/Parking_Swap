@@ -7,8 +7,8 @@ excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit6>, reason: }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
-  {ubit: <pkearney>, progress:  completed server client java communication exchange},
-  {ubit: <jsingh27>, progress: Created a TabView to select between lots also added lot button for south campus and linked them with the google maps api},
+  {ubit: <pkearney>, progress:  completed server client java communication exchange},also
+  {ubit: <jsingh27>, progress: Created a TabView to select between lots},
   {ubit: <mrnorton>, progress: Finished adding all lot buttons and starting the link to individual lots with the Google Maps API (Java and 
                       XML code).},
   {ubit: <ewyang>, progress: None},
