@@ -1,0 +1,27 @@
+date: September 14, 2016
+meeting_type: ta
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
+absent: [<ubit4>, <ubit5>, <ubit 6>]
+excused_absences: [ # Any legitimate excuses for absent team members
+  {ubit: <ubit5>, : reason: },
+  {ubit: <ubit6>, reason: }
+  ]
+task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
+  {ubit: <pkearney>, progress: None},
+  {ubit: <jsingh27>, progress: Updated the UI and added additional pages for the app},
+  {ubit: <mrnorton>, progress: None},
+  {ubit: <ewyang>, progress: None},
+  {ubit: <mjkall>, progress: },
+  {ubit: <amingola>, progress: Recorded and uploaded Sprint 1 Youtube Demo},
+  {ubit: <fengyuwu>, progress: },
+  {ubit: <tjquinn>, progress: Record Minutes}
+  ]
+issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
+  {ubit: <ubit2>, issue: },
+  {ubit: <ubit6>, issue: }
+  ]
+Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
+  -Met with TA Troy to discuss and present our app to him.  
+  -Troy approved of our project and stated we are ready to make a demo video. 
+  -Demo was recorded immediately after meeting with Troy. 
+  -Next meeting TBD.
