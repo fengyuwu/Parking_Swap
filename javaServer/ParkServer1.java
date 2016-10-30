@@ -12,8 +12,9 @@ public class ParkServer1
 {
    public static void main(String [] args) throws IOException
    {
-	    int portNum = 922;
+	    int portNum = 4922;
 		ServerSocket server = new ServerSocket(portNum);
+		System.out.println("Welcome to the ParkingServer");
 
 		while(true)
 		{
