@@ -1,25 +1,23 @@
-date: October 12, 2016
+date: October 26, 2016
 meeting_type: ta
-attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
-absent: [<ubit>,]
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <tjquinn>]
+absent: [<fengyuwu>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
   {ubit: <ubit6>, reason: }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
-  {ubit: <pkearney>, progress: continuing to build out server client sockets from last sprint,  researching AWS server run},
+  {ubit: <pkearney>, progress: working on concurrency locks to protect server global variables},
   {ubit: <jsingh27>, progress: None},
   {ubit: <mrnorton>, progress: None},
-  {ubit: <ewyang>, progress: None},
+  {ubit: <ewyang>, progress: Create a simple calculator app that will to sent value to lambda function and recieve result back},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
   {ubit: <fengyuwu>, progress: None},
   {ubit: <tjquinn>, progress: None}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
-  {ubit: <ubit2>, issue: },
+  {ubit: <tjquinn>, issue: },
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
- -Found out our version control wasn't handled correctly by the group collectively for spring 2.  
-  We should not have so many repos and we should only be pushing to master at the very end. 
