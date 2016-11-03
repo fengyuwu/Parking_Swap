@@ -26,7 +26,18 @@ public class GetClient extends Activity {
             public void onClick(View arg0) {
                 Server myClient = new Server(response);
                 myClient.execute();
-                response.setText(Server.who);
+
+                do{
+                    response.setText(Server.who);
+                    try {
+                        Thread.sleep(1000); //Retry every second
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }while(response.getText().length() == 0);
+
+                response.setText(response.getText()+" Done!");
+
             }
 
         });
