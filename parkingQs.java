@@ -3,7 +3,7 @@ import java.util.*;
 public class Queues {
 	public static void main(String[] args){
 		if(id.equals("Arena")){
-			// server coming soon(:
+			// server coming soon
 			Queue<String> Arena = new LinkedList<String>();
 		}else if(id.equals("Alumni A")){
 			// server coming soon
