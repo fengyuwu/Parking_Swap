@@ -4,15 +4,16 @@ package com.parkingswap;
  * Created by jaskiratsingh on 10/29/16.
  */
 
+import android.widget.TextView;
+
 import java.util.*;
 
 public class User
 {
     static int id=0;
 
-
     public String where;
-    public User( )
+    public User()
     {
         Random rand = new Random();
         this.id= rand.nextInt(999999);

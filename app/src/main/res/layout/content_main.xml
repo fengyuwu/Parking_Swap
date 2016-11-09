@@ -49,4 +49,13 @@
         android:layout_alignStart="@+id/Leave"
         android:onClick="onButtonClickQuick" />
 
+    <TextView
+        android:text="[user]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_tv"
+        android:layout_above="@+id/Find"
+        android:layout_alignStart="@+id/Find"
+        android:layout_marginBottom="29dp" />
+
 </RelativeLayout>

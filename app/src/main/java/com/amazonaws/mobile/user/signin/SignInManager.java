@@ -127,6 +127,7 @@ public class SignInManager {
             } else {
                 handler.onSuccess(provider);
             }
+
         }
 
         /** {@inheritDoc} */

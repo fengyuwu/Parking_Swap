@@ -37,6 +37,8 @@ import java.util.concurrent.Executors;
  */
 public class IdentityManager {
 
+    String userIdentityId;
+
     /**
      * Allows the application to get asynchronous response with user's
      * unique identifier.
@@ -188,6 +190,8 @@ public class IdentityManager {
                 try {
                     // Retrieve the user identity on the background thread.
                     identityId = getCredentialsProvider().getIdentityId();
+                    userIdentityId = identityId;
+
                 } catch (final Exception exception) {
                     this.exception = exception;
                     Log.e(LOG_TAG, exception.getMessage(), exception);
@@ -214,6 +218,10 @@ public class IdentityManager {
                 }
             }
         }).start();
+    }
+
+    public String getUserIdentityId(){
+        return userIdentityId;
     }
 
     /**

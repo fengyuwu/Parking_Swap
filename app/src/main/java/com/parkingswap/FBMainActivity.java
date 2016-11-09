@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.amazonaws.mobile.AWSMobileClient;
 import com.amazonaws.mobile.user.IdentityManager;
@@ -45,7 +46,7 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
     /** The helper class used to toggle the left navigation drawer open and closed. */
     private ActionBarDrawerToggle drawerToggle;
 
-    private Button   signOutButton;
+    private Button signOutButton;
 
     /**
      * Initializes the Toolbar for use with the activity.
@@ -145,6 +146,12 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
         identityManager = awsMobileClient.getIdentityManager();
 
         setContentView(R.layout.activity_main_fb);
+
+        String id = identityManager.getUserIdentityId();
+
+        System.out.println("FUCK: "+id);
+        TextView tv = (TextView) findViewById(R.id.user_tv);
+        tv.setText(id); //This should always be set to the logged-in users ID BEFORE onCreate
 
         setupToolbar(savedInstanceState);
 
