@@ -1,7 +1,7 @@
 date: November 9, 2016
 meeting_type: ta
-attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
-absent: [<ubit>,]
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
+absent: [<ewyang>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
   {ubit: <ubit6>, reason: }
