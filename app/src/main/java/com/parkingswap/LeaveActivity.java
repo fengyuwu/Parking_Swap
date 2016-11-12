@@ -42,17 +42,37 @@ public class LeaveActivity extends AppCompatActivity
     Location mLastLoc;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leave);
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission();
+            mGoogleApiClient = new GoogleApiClient.Builder(this, this, this).addApi(LocationServices.API).build();
         }
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (mGoogleApiClient!= null) {
+            mGoogleApiClient.connect();
+        }
+    }
+
+    @Override
+    protected void onStop() {
+        mGoogleApiClient.disconnect();
+        super.onStop();
+
+
     }
 
     @Override
@@ -73,6 +93,21 @@ public class LeaveActivity extends AppCompatActivity
                     Manifest.permission.ACCESS_FINE_LOCATION)
                     == PackageManager.PERMISSION_GRANTED) {
                 mMap.setMyLocationEnabled(true);
+
+
+
+                /*if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                    mLastLoc = LocationServices.FusedLocationApi.getLastLocation(
+                            mGoogleApiClient);
+                }
+                if (mLastLoc != null){
+                    LeaveClient.Latitude = String.valueOf(mLastLoc.getLatitude());
+                    LeaveClient.Longitude = String.valueOf(mLastLoc.getLongitude());
+                    //current = new LatLng(mLastLoc.getLatitude(),mLastLoc.getLongitude());
+                }
+
+                ServerLeave myClient = new ServerLeave(LeaveClient.response2);
+                myClient.execute();*/
             }
         }
         else {
@@ -83,11 +118,29 @@ public class LeaveActivity extends AppCompatActivity
         //TODO: change that to user location
 
 
+
+
     }
 
     @Override
-    public void onConnected(@Nullable Bundle bundle) {
+    public void onConnected(Bundle bundle) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED) {
+            Location lastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+            if (lastLocation != null){
+                //CampusMapActivity.currentPosition = new LatLng(lastLocation.getLatitude(),lastLocation.getLongitude());
+                //ServerLeave myClient = new ServerLeave(LeaveClient.response2);
+                //myClient.execute();
+                //current = new LatLng(mLastLoc.getLatitude(),mLastLoc.getLongitude());
+
+
+            }
+        }
+
+
     }
+
+
 
     @Override
     public void onConnectionSuspended(int i) {
@@ -155,7 +208,6 @@ public class LeaveActivity extends AppCompatActivity
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(UB, 18));
         Marker user = mMap.addMarker(new MarkerOptions().position(UB).title("I'm Leaving"));
         user.showInfoWindow();
-
         //mMap.clear();
 
         //MarkerOptions mp = new MarkerOptions();

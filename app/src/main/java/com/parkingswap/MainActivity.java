@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
     }
 
     @Override
@@ -56,6 +59,10 @@ public class MainActivity extends AppCompatActivity {
     public void onButtonClickQuick(View v){
 
         startActivity(new Intent("Server_class.Server"));
+    }
+    public void onButtonClickLeaveClient(View v){
+
+        startActivity(new Intent("LClient_class.Client"));
     }
 
 
