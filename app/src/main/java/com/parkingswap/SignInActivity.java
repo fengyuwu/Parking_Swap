@@ -1,4 +1,4 @@
-package com.parkingswap;;
+package com.parkingswap;
 
 import android.Manifest;
 import android.app.Activity;
@@ -10,6 +10,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.amazonaws.mobile.AWSMobileClient;
@@ -22,6 +23,8 @@ import com.amazonaws.mobile.user.signin.FacebookSignInProvider;
 public class SignInActivity extends Activity {
     private final static String LOG_TAG = SignInActivity.class.getSimpleName();
     private SignInManager signInManager;
+
+    private String userIdentityId;
 
     /** Permission Request Code (Must be < 256). */
     private static final int GET_ACCOUNTS_PERMISSION_REQUEST_CODE = 93;
@@ -43,6 +46,10 @@ public class SignInActivity extends Activity {
             Log.d(LOG_TAG, String.format("User sign-in with %s succeeded",
                 provider.getDisplayName()));
 
+             userIdentityId = AWSMobileClient.defaultMobileClient()
+                    .getIdentityManager().getUserIdentityId();
+            System.out.println("Here it is: "+userIdentityId);
+
             // The sign-in manager is no longer needed once signed in.
             SignInManager.dispose();
 
@@ -55,7 +62,7 @@ public class SignInActivity extends Activity {
                 @Override
                 public void run() {
                     Log.d(LOG_TAG, "Launching Main Activity...");
-                    startActivity(new Intent(SignInActivity.this, MainActivity.class)
+                    startActivity(new Intent(SignInActivity.this, FBMainActivity.class)
                         .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                     // finish should always be called on the main thread.
                     finish();
@@ -63,6 +70,10 @@ public class SignInActivity extends Activity {
             });
         }
 
+        public String getUserIdentityId(){
+            System.out.println("Getting user");
+            return userIdentityId;
+        }
         /**
          * Recieves the sign-in result indicating the user canceled and shows a toast.
          * @param provider the identity provider with which the user attempted sign-in.

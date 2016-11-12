@@ -47,7 +47,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:428385901001:android:133649cec210edc5",
         "android_client_info": {
-          "package_name": "com.parkingswap"
+          "package_name": "com.example.jaskiratsingh.parkingswap"
         }
       },
       "oauth_client": [
@@ -55,7 +55,7 @@
           "client_id": "428385901001-aj8u8a92pov8lk6hc8conck7d789rhjm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.parkingswap",
+            "package_name": "com.example.jaskiratsingh.parkingswap",
             "certificate_hash": "DCFC7C12EC3D1283910545FAE6FB787612FDC0FB"
           }
         },

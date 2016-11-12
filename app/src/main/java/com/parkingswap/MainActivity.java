@@ -1,5 +1,4 @@
 package com.parkingswap;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,10 +8,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import com.amazonaws.mobile.AWSMobileClient;
+
 public class MainActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -35,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+
+        }
+
+        if(id == R.id.action_info){
+            startActivity(new Intent("userinfo_class.user"));
         }
 
         return super.onOptionsItemSelected(item);
@@ -49,5 +59,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent("Leave_class.Leave"));
     }
 
+    public void onButtonClickQuick(View v){
+
+        startActivity(new Intent("Server_class.Server"));
+    }
+
 
 }
+
+

@@ -13,7 +13,7 @@ package com.parkingswap;
         import android.support.v7.app.AppCompatActivity;
         import android.webkit.PermissionRequest;
         import android.widget.Toast;
-
+        import com.parkingswap.R;
         import com.google.android.gms.common.ConnectionResult;
         import com.google.android.gms.common.api.GoogleApiClient;
         import com.google.android.gms.location.LocationListener;

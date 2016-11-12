@@ -113,6 +113,8 @@ public class SignInManager {
         }
 
 	/** {@inheritDoc} */
+
+
         @Override
         public void onSuccess(final IdentityProvider provider) {
             if (!runningFromMainThread()) {
@@ -125,6 +127,7 @@ public class SignInManager {
             } else {
                 handler.onSuccess(provider);
             }
+
         }
 
         /** {@inheritDoc} */
