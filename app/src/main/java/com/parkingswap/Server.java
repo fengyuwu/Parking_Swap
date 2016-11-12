@@ -16,6 +16,7 @@ import java.util.*;
 public class Server extends AsyncTask<Void, Void, Void>
 {
 
+<<<<<<< HEAD
     private final String EC2_ELASTIC_IP = "52.206.108.200";
 
     private String response = "";
@@ -26,6 +27,19 @@ public class Server extends AsyncTask<Void, Void, Void>
 }
     TextView T1;
 
+=======
+    String response = "";
+    public static String who;
+    public String getButtonID() {
+
+        return who;
+    }
+    TextView T1;
+
+
+
+
+>>>>>>> origin/xenalin
     Server(TextView textResponse) {
         this.T1 = textResponse;
     }
@@ -34,6 +48,7 @@ public class Server extends AsyncTask<Void, Void, Void>
     @Override
     protected Void doInBackground(Void... arg0) {
 
+<<<<<<< HEAD
         Socket s = null;
 
         try {
@@ -44,6 +59,15 @@ public class Server extends AsyncTask<Void, Void, Void>
             e.printStackTrace();
         }
 
+=======
+        System.out.println("attempt");
+        Socket s = null;
+        try {
+            s = new Socket( "52.91.175.206", 4922);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+>>>>>>> origin/xenalin
         System.out.println("tried");
 
         InputStream instream = null;
@@ -67,12 +91,22 @@ public class Server extends AsyncTask<Void, Void, Void>
 
         boolean step2 = true;
         boolean step1 = true;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/xenalin
         while(step2)
         {
             if(step1)
             {
+<<<<<<< HEAD
                 System.out.println(); //perfunctory
+=======
+                System.out.println();
+                System.out.println("YOU WANT TO PARK OR LEAVE?");
+
+
+>>>>>>> origin/xenalin
 
                 String curWord = "PARK";
 
@@ -81,6 +115,7 @@ public class Server extends AsyncTask<Void, Void, Void>
                 out.println(player.getID());
                 out.flush();
 
+<<<<<<< HEAD
                 String matchFromServer = in.nextLine();
                 while(matchFromServer.length()<1)
                 {
@@ -91,6 +126,17 @@ public class Server extends AsyncTask<Void, Void, Void>
                 String lame = matchFromServer;
 
                 if(matchFromServer.equals(lame)  )
+=======
+
+                String dan = in.nextLine();
+                while(dan.length()<1)
+                {
+                    dan = in.nextLine();
+                }
+                String lame = dan;
+
+                if(dan.equals(lame)  )
+>>>>>>> origin/xenalin
                 {
 
                     who = in.nextLine();
