@@ -47,11 +47,8 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
     private ActionBarDrawerToggle drawerToggle;
 
     private Button signOutButton;
-<<<<<<< HEAD
 
     private String identityId;
-=======
->>>>>>> origin/xenalin
 
     /**
      * Initializes the Toolbar for use with the activity.
@@ -152,19 +149,11 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
 
         setContentView(R.layout.activity_main_fb);
 
-<<<<<<< HEAD
         identityId = identityManager.getUserIdentityId();
         UserId.setId(identityId);
 
         TextView tv = (TextView) findViewById(R.id.user_tv);
         tv.setText(identityId); //This should always be set to the logged-in user's ID BEFORE onCreate
-=======
-        String id = identityManager.getUserIdentityId();
-
-        System.out.println("FUCK: "+id);
-        TextView tv = (TextView) findViewById(R.id.user_tv);
-        tv.setText(id); //This should always be set to the logged-in users ID BEFORE onCreate
->>>>>>> origin/xenalin
 
         setupToolbar(savedInstanceState);
 
@@ -268,13 +257,10 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
             }
         }
         super.onBackPressed();*/
-<<<<<<< HEAD
     }
 
     public String getIdentityId(){
         return identityId;
-=======
->>>>>>> origin/xenalin
     }
 
 }
