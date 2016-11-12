@@ -65,6 +65,11 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
 
         startActivity(new Intent("Server_class.Server"));
     }
+    public void onButtonClickLeaveClient(View v){
+
+        startActivity(new Intent("LClient_class.Client"));
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
