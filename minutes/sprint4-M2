@@ -19,7 +19,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <tjquinn>, progress: None}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
-  {ubit: <ubit2>, issue: },
+  {ubit: <tjquinn>, issue: arriving and leaving queue class is extremely messy with all the if statements },
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
