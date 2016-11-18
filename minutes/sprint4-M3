@@ -16,7 +16,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
   {ubit: <fengyuwu>, progress: None},
-  {ubit: <tjquinn>, progress: created new structure for queues- instead of having a queue for each lot, lots in close 
+  {ubit: <tjquinn>, progress: created new layout for queues class- instead of having a queue for each lot, lots in close 
   proximity to eachother will be grouped into the same queue.}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
