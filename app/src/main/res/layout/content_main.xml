@@ -9,8 +9,10 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.jaskiratsingh.parkingswap.MainActivity"
+    tools:context="com.parkingswap.MainActivity"
     tools:showIn="@layout/activity_main">
+
+
 
     <Button
         android:layout_width="350dp"
@@ -29,7 +31,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/Leave"
         android:text="Leave"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorPrimary"
         android:textColor="@android:color/background_light"
         android:layout_alignBottom="@+id/Quick_Find"
         android:layout_alignLeft="@+id/Find"
@@ -43,9 +45,23 @@
         android:id="@+id/Quick_Find"
         android:text="Quick Find"
         android:textColor="@android:color/background_light"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorPrimary"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/Leave"
-        android:layout_alignStart="@+id/Leave" />
+        android:layout_alignStart="@+id/Leave"
+        android:onClick="onButtonClickQuick" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Leave_Find"
+        android:text="Leave and Find"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/Leave"
+        android:layout_marginTop="4dp"
+        android:layout_alignParentEnd="true"
+        android:onClick="onButtonClickLeaveClient" />
 
 </RelativeLayout>
