@@ -13,7 +13,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
-  {ubit: <amingola>, progress: None}, Continued work on incorporating Cognito user IDs into app functionality
+  {ubit: <amingola>, progress: Continued work on incorporating Cognito user IDs into app functionality},
   {ubit: <fengyuwu>, progress: None},
   {ubit: <tjquinn>, progress: rename + create queues. 1 arriving queue and 1 leaving queue for each lot}
   ]
