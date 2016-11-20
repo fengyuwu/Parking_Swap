@@ -9,24 +9,17 @@ import android.widget.TextView;
 
 public class GetClient extends Activity {
 
-    public static TextView response;
     Button buttonConnect;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_park);
         buttonConnect = (Button) findViewById(R.id.connectButton);
-
-
-
-        response = (TextView) findViewById(R.id.T1);
-
-
         buttonConnect.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                ServerPark myClient = new ServerPark(response);
+                ServerPark myClient = new ServerPark();
                 myClient.execute();
 
 

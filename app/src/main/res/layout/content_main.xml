@@ -48,20 +48,6 @@
         android:background="@color/colorPrimary"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/Leave"
-        android:layout_alignStart="@+id/Leave"
-        android:onClick="onButtonClickQuick" />
-
-    <Button
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/Leave_Find"
-        android:text="Leave and Find"
-        android:textColor="@android:color/background_light"
-        android:background="@color/colorPrimary"
-        android:layout_marginRight="15dp"
-        android:layout_below="@+id/Leave"
-        android:layout_marginTop="4dp"
-        android:layout_alignParentEnd="true"
-        android:onClick="onButtonClickLeaveClient" />
+        android:layout_alignStart="@+id/Leave" />
 
 </RelativeLayout>
