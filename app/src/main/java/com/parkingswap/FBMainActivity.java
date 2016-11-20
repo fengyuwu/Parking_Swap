@@ -150,9 +150,16 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_main_fb);
 
         identityId = identityManager.getUserIdentityId();
+<<<<<<< HEAD
 
         TextView tv = (TextView) findViewById(R.id.user_tv);
         tv.setText(identityId); //This should always be set to the logged-in users ID BEFORE onCreate
+=======
+        UserId.setId(identityId);
+
+        TextView tv = (TextView) findViewById(R.id.user_tv);
+        tv.setText(identityId); //This should always be set to the logged-in user's ID BEFORE onCreate
+>>>>>>> origin/xenalin
 
         setupToolbar(savedInstanceState);
 
@@ -257,4 +264,9 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
         }
         super.onBackPressed();*/
     }
+
+    public String getIdentityId(){
+        return identityId;
+    }
+
 }

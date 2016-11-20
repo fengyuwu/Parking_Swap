@@ -16,16 +16,15 @@ import java.util.*;
 public class Server extends AsyncTask<Void, Void, Void>
 {
 
-    String response = "";
-    public static String who;
-    public String getButtonID() {
+    private final String EC2_ELASTIC_IP = "52.206.108.200";
+
+    private String response = "";
+    protected static String who;
+    private String getButtonID() {
 
         return who;
-    }
+}
     TextView T1;
-
-
-
 
     Server(TextView textResponse) {
         this.T1 = textResponse;
@@ -35,13 +34,16 @@ public class Server extends AsyncTask<Void, Void, Void>
     @Override
     protected Void doInBackground(Void... arg0) {
 
-        System.out.println("attempt");
         Socket s = null;
+
         try {
-            s = new Socket( "52.91.175.206", 4922);
+
+            s = new Socket("52.206.108.200", 4922);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         System.out.println("tried");
 
         InputStream instream = null;
@@ -65,14 +67,12 @@ public class Server extends AsyncTask<Void, Void, Void>
 
         boolean step2 = true;
         boolean step1 = true;
+
         while(step2)
         {
             if(step1)
             {
-                System.out.println();
-                System.out.println("YOU WANT TO PARK OR LEAVE?");
-
-
+                System.out.println(); //perfunctory
 
                 String curWord = "PARK";
 
@@ -81,15 +81,16 @@ public class Server extends AsyncTask<Void, Void, Void>
                 out.println(player.getID());
                 out.flush();
 
-
-                String dan = in.nextLine();
-                while(dan.length()<1)
+                String matchFromServer = in.nextLine();
+                while(matchFromServer.length()<1)
                 {
-                    dan = in.nextLine();
+                    matchFromServer = in.nextLine();
                 }
-                String lame = dan;
+                System.out.println();
 
-                if(dan.equals(lame)  )
+                String lame = matchFromServer;
+
+                if(matchFromServer.equals(lame)  )
                 {
 
                     who = in.nextLine();
