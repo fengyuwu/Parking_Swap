@@ -7,8 +7,8 @@ excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit6>, reason: }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
-  {ubit: <pkearney>, progress: None},
-  {ubit: <jsingh27>, progress: None},
+  {ubit: <pkearney>, progress: continuing to build out server client sockets from last sprint,  researching AWS server run},
+  {ubit: <jsingh27>, progress: Decided what issues to work on and also discussed the github issues with troy},
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
