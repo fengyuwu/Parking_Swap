@@ -10,7 +10,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <pkearney>, progress: None},
   {ubit: <jsingh27>, progress:None},
   {ubit: <pkearney>, progress:  None},
-  {ubit: <jsingh27>, progress: None},
+  {ubit: <jsingh27>, progress: Successfully updated the Map Gui to show the location of the person who is leaving, so the user who is parking can swap the spot, this was done using Polylines},
   {ubit: <mrnorton>, progress: Finished editing server code for Queues class},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
