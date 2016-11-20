@@ -1,1 +1,0 @@
-The res folder contains all the XML source files required for the app to run and the java folder contains all the Java files for the app to run

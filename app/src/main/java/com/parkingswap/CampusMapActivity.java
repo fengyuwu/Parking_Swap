@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -34,6 +35,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 
 import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
 
 public class CampusMapActivity extends AppCompatActivity
         implements OnMapReadyCallback,
@@ -50,32 +52,10 @@ public class CampusMapActivity extends AppCompatActivity
     public static String Latitude;
     public static String Longitude;
     ArrayList<LatLng> setDirection = new ArrayList<>();
-    //public static LatLng currentPosition;
-
-    LatLng current;// = new LatLng(42.999437, -78.793216);
-    public static LatLng destination;// = new LatLng(42.99859, -78.790212);
-
-    private void drawPolygon() {
-        //Default color
-        int color = Color.MAGENTA;
-
-        PolygonOptions options = new PolygonOptions()
-                .fillColor(Color.MAGENTA)
-                .strokeWidth(3)
-                .strokeColor(Color.MAGENTA)
-                .clickable(true);
-
-        for (int i = 0; i < setDirection.size(); i++) {
-            options.add(setDirection.get(i));
-
-        /*for(int i=0; i <markers.size(); i++){
-            options.add(markers.get(i).getPosition());*/
-        }
-    }
+    LatLng current;
+    public static LatLng destination;
 
     private void Directions() {
-
-        //Polyline line = new PolylineOptions().width(5).color(Color.RED);
 
         PolylineOptions setPolyline = new PolylineOptions()
                 .width(5)
@@ -84,9 +64,10 @@ public class CampusMapActivity extends AppCompatActivity
         for (int i = 0; i < setDirection.size(); i++) {
             setPolyline.add(setDirection.get(i));
 
-            mMap.addPolyline(setPolyline);
+
 
         }
+        mMap.addPolyline(setPolyline);
     }
 
 
@@ -188,161 +169,117 @@ public class CampusMapActivity extends AppCompatActivity
         if (LotActivity.ID.equals("Abbot_A")) {
             //move map camera
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Abbot));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
 
         } else if (LotActivity.ID.equals("Clark")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Clark));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Main_Bailey")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Main_Bailey));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Parker")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Parker));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Sherman")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Sherman));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
 
         } else if (LotActivity.ID.equals("Townsend")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Townsend));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
+
 
         } else if (LotActivity.ID.equals("Arena")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Arena));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("AlumniA")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(AlumniA));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("AlumniB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(AlumniB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("AlumniC")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(AlumniC));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("BairdA")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(BairdA));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("CookeA")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(CookeA));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("CookeB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(CookeB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Crofts")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Crofts));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Fargo")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Fargo));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("GovernorsB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(GovernorsB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("GovernorsC")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(GovernorsC));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("GovernorsD")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(GovernorsD));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("GovernorsE")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(GovernorsE));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("HochstetterB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(HochstetterB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("JacobsB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(JacobsB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("JacobsC")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(JacobsC));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("JarvisA")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(JarvisA));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("JarvisB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(JarvisB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Ketter")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Ketter));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("LakeLaSalle")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(LakeLaSalle));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("RedJacket")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(RedJacket));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("RichmondA")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(RichmondA));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("RichmondB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(RichmondB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("SpecialEventParking")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(SpecialEventParking));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Stadium")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Stadium));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("SleeA")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(SleeA));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("SleeB")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(SleeB));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         } else if (LotActivity.ID.equals("Spaulding")) {
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Spaulding));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(18));
 
         }
 
 
-        //stop location updates
 
     }
 
     @Override
     public void onConnected(Bundle bundle) {
-
-        /*if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            mLastLoc = LocationServices.FusedLocationApi.getLastLocation(
-                    mGoogleApiClient);
-        }
-        if (mLastLoc != null){
-            //Latitude = String.valueOf(mLastLoc.getLatitude());
-            //Longitude = String.valueOf(mLastLoc.getLongitude());
-            current = new LatLng(mLastLoc.getLatitude(),mLastLoc.getLongitude());
-        }*/
-
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED) {
             Location lastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
@@ -350,20 +287,24 @@ public class CampusMapActivity extends AppCompatActivity
                 CampusMapActivity.Latitude = String.valueOf(lastLocation.getLatitude());
                 CampusMapActivity.Longitude = String.valueOf(lastLocation.getLongitude());
                 current = new LatLng(lastLocation.getLatitude(),lastLocation.getLongitude());
-
-                //ServerPark myClient = new ServerPark(GetClient.response);
-                //myClient.execute();
-
-                /*LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                try {
+                    Void str_result= new ServerPark().execute().get();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("passed while in park");
                 setDirection.add(current);
-                setDirection.add(destination);
+                destination = new LatLng(Double.parseDouble(ServerPark.LatPark),Double.parseDouble(ServerPark.LongPark));
+                setDirection.add(CampusMapActivity.destination);
+                LatLngBounds.Builder builder = new LatLngBounds.Builder();
                 for (int i = 0; i < setDirection.size(); i++) {
                     builder.include(setDirection.get(i));
                 }
-
                 LatLngBounds bounds = builder.build();
                 mMap.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds, 10));
-                Directions();*/
+                Directions();
 
             }
         }
