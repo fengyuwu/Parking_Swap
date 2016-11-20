@@ -1,4 +1,4 @@
-date: October 19, 2016
+date: November 2, 2016
 meeting_type: ta
 attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
 absent: [<ubit>,]
@@ -7,16 +7,11 @@ excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit6>, reason: }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
-<<<<<<< HEAD
   {ubit: <pkearney>, progress: None},
-=======
-  {ubit: <pkearney>, progress: Medical not able, surgery },
->>>>>>> origin/master
-  {ubit: <jsingh27>, progress: Worked on adding Tabhost to LotActivity to distinguish south and north campus lots with an easy to use GUI, also added south campus Parking lots with buttons},
-  {ubit: <pkearney>, progress:  completed server client java communication exchange},also
-  {ubit: <jsingh27>, progress: Created a TabView to select between lots},
-  {ubit: <mrnorton>, progress: Finished adding all lot buttons and starting the link to individual lots with the Google Maps API (Java and 
-                      XML code).},
+  {ubit: <jsingh27>, progress:None},
+  {ubit: <pkearney>, progress:  None},
+  {ubit: <jsingh27>, progress: Started working with Pat to transmit data from the app to the server to conect users with each other},
+  {ubit: <mrnorton>, progress: Started working with Tom on Queue server code in a basic test form},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
@@ -24,8 +19,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <tjquinn>, progress: None}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
-  {ubit: <ubit2>, issue: },
+  {ubit: <tjquinn>, issue: arriving and leaving queue class is extremely messy due to layout structure of class},
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
- -Issue with aws is still holding up progress of linking front and back end of app. Contacting Jesse to set up a meeting with him.  
