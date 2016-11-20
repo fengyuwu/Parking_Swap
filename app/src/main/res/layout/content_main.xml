@@ -12,6 +12,8 @@
     tools:context="com.parkingswap.MainActivity"
     tools:showIn="@layout/activity_main">
 
+
+
     <Button
         android:layout_width="350dp"
         android:layout_height="wrap_content"
@@ -46,7 +48,6 @@
         android:background="@color/colorPrimary"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/Leave"
-        android:layout_alignStart="@+id/Leave"
-        android:onClick="onButtonClickQuick" />
+        android:layout_alignStart="@+id/Leave" />
 
 </RelativeLayout>

@@ -10,8 +10,8 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <pkearney>, progress: None},
   {ubit: <jsingh27>, progress:None},
   {ubit: <pkearney>, progress:  None},
-  {ubit: <jsingh27>, progress: None},
-  {ubit: <mrnorton>, progress: None},
+  {ubit: <jsingh27>, progress: Started working with Pat to transmit data from the app to the server to conect users with each other},
+  {ubit: <mrnorton>, progress: Started working with Tom on Queue server code in a basic test form},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
@@ -19,7 +19,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <tjquinn>, progress: None}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
-  {ubit: <ubit2>, issue: },
+  {ubit: <tjquinn>, issue: arriving and leaving queue class is extremely messy due to layout structure of class},
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.

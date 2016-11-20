@@ -1,0 +1,26 @@
+date: November 9, 2016
+meeting_type: ta
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
+absent: [<ewyang>,]
+excused_absences: [ # Any legitamite excuses for absent team members
+  {ubit: <ubit5>, : reason: },
+  {ubit: <ubit6>, reason: }
+  ]
+task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
+  {ubit: <pkearney>, progress: None},
+  {ubit: <jsingh27>, progress:None},
+  {ubit: <pkearney>, progress:  None},
+  {ubit: <jsingh27>, progress: Created UI to check the data sent from the server between users},
+  {ubit: <mrnorton>, progress: None},
+  {ubit: <ewyang>, progress: None},
+  {ubit: <mjkall>, progress: None},
+  {ubit: <amingola>, progress: None},
+  {ubit: <fengyuwu>, progress: None},
+  {ubit: <tjquinn>, progress: created new layout for queues class- instead of having a queue for each lot, lots in close 
+  proximity to eachother will be grouped into the same queue.}
+  ]
+issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
+  {ubit: <ubit2>, issue: },
+  {ubit: <ubit6>, issue: }
+  ]
+Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
