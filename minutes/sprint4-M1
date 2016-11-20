@@ -1,5 +1,5 @@
-date: November 2, 2016
-meeting_type: ta
+date: October 31, 2016
+meeting_type: group
 attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
 absent: [<ubit>,]
 excused_absences: [ # Any legitamite excuses for absent team members
@@ -8,17 +8,18 @@ excused_absences: [ # Any legitamite excuses for absent team members
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <jsingh27>, progress:None},
-  {ubit: <pkearney>, progress:  Working with Jaskirat on app to server communications so users connect},
-  {ubit: <jsingh27>, progress: Started working with Pat to transmit data from the app to the server to conect users with each other},
-  {ubit: <mrnorton>, progress: Started working with Tom on Queue server code in a basic test form},
+  {ubit: <pkearney>, progress: Working on server runnable class to accomodate multiple concurrent users},
+  {ubit: <jsingh27>, progress: Started working on connecting two users just by using android phones},
+  {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
   {ubit: <fengyuwu>, progress: None},
-  {ubit: <tjquinn>, progress: None}
+  {ubit: <tjquinn>, progress: rename + create queues. 1 arriving queue and 1 leaving queue for each lot}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
-  {ubit: <tjquinn>, issue: arriving and leaving queue class is extremely messy due to layout structure of class},
+  {ubit: <ubit2>, issue: },
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
+-Moving away from lambda functions

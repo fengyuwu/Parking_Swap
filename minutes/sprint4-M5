@@ -1,0 +1,25 @@
+date: November 16, 2016
+meeting_type: ta
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <mjkall>, <amingola>, <fengywu>, <tjquinn>]
+absent: [<ubit>,]
+excused_absences: [ # Any legitamite excuses for absent team members
+  {ubit: <ubit5>, : reason: },
+  {ubit: <ubit6>, reason: }
+  ]
+task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
+  {ubit: <pkearney>, progress: None},
+  {ubit: <jsingh27>, progress:None},
+  {ubit: <pkearney>, progress:  Completed thread class objects & restructure to pass needed GPS info back to other users(park -> leave and vv},
+  {ubit: <jsingh27>, progress: Successfully updated the Map Gui to show the location of the person who is leaving, so the user who is parking can swap the spot, this was done using Polylines},
+  {ubit: <mrnorton>, progress: Finished editing server code for Queues class},
+  {ubit: <ewyang>, progress: None},
+  {ubit: <mjkall>, progress: None},
+  {ubit: <amingola>, progress: None},
+  {ubit: <fengyuwu>, progress: None},
+  {ubit: <tjquinn>, progress: Each queue has its own version of the matching method identified by the sector}
+  ]
+issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
+  {ubit: <ubit2>, issue: },
+  {ubit: <ubit6>, issue: }
+  ]
+Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
