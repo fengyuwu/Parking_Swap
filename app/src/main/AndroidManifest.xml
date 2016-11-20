@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jaskiratsingh.parkingswap">
+    package="com.parkingswap">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -19,27 +19,63 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name="android.support.multidex.MultiDexApplication">
-
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label=""
-            android:theme="@style/AppTheme.NoActionBar"
-            >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="Main_class.main" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".SignInActivity"
+            android:name=".LotActivity"
             android:label=""
-            android:theme="@style/ThemeOverlay.MyNoTitleActivity">
+            android:theme="@style/status">
+            <intent-filter>
+                <action android:name="Lot_class.Lot" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CampusMapActivity"
+            android:label="">
+            <intent-filter>
+                <action android:name="Campus_class.Campus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LeaveActivity"
+            android:label="">
+            <intent-filter>
+                <action android:name="Leave_class.Leave" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user_info_activity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="userinfo_class.user" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,53 +84,35 @@
         </activity>
 
         <activity
-            android:name=".FindActivity"
-            android:label="">
-            <intent-filter>
-                <action android:name="Find_class.Find" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".LotActivity"
+            android:name=".GetClient"
             android:label=""
             android:theme="@style/AppTheme">
             <intent-filter>
-                <action android:name="Lot_class.Lot" />
-
+                <action android:name="Server_class.Server" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity
-            android:name=".CampusMapActivity"
-            android:label="">
-            <intent-filter>
-                <action android:name="Campus_class.Campus" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".LeaveActivity"
-            android:label="">
-            <intent-filter>
-                <action android:name="Leave_class.Leave" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".user_info_activity"
+            android:name=".LeaveClient"
             android:label=""
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
-                <action android:name="userinfo_class.user" />
+                <action android:name="LClient_class.Client" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+
+        <activity
+            android:name=".SignInActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_sign_in"></activity>
+        <activity
+            android:name=".FBMainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/FBAppTheme"></activity>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -117,6 +135,22 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+        <!-- BEGIN - FACEBOOK SIGN-IN -->
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!-- END - FACEBOOK SIGN-IN -->
+
     </application>
 
 </manifest>

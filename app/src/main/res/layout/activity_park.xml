@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/T2"
+        android:layout_weight="0.02"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/black_overlay"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/T1"
+        android:layout_alignBottom="@+id/T1"
+        android:layout_alignParentStart="true"
+        android:text="Partner ID:"
+        android:layout_width="150dp" />
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="200dp"
+        android:layout_weight="0.02"
+        android:layout_height="40dp"
+        android:layout_marginTop="146dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/black_overlay"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:layout_below="@+id/connectButton"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary"
+        android:text="Park"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

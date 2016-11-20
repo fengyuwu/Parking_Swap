@@ -1,14 +1,19 @@
-
+import java.util.*;
 
 public class User
 {
-    public int id;
+	static int id=0;
+
+
     public String where;
-  	 public User( String location)
+  	 public User( )
   	 {
 		 //int id = num;
-		 where = location;
-		 id = id + 1;
+		// where = location;
+		 Random rand = new Random();
+		 this.id= rand.nextInt(999999);
+
+
 	 }
 	 public String getWhere()
 	 {
