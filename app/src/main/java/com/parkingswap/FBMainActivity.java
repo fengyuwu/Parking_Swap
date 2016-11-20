@@ -48,6 +48,8 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
 
     private Button signOutButton;
 
+    private String identityId;
+
     /**
      * Initializes the Toolbar for use with the activity.
      */
@@ -147,11 +149,10 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
 
         setContentView(R.layout.activity_main_fb);
 
-        String id = identityManager.getUserIdentityId();
+        identityId = identityManager.getUserIdentityId();
 
-        System.out.println("FUCK: "+id);
         TextView tv = (TextView) findViewById(R.id.user_tv);
-        tv.setText(id); //This should always be set to the logged-in users ID BEFORE onCreate
+        tv.setText(identityId); //This should always be set to the logged-in users ID BEFORE onCreate
 
         setupToolbar(savedInstanceState);
 

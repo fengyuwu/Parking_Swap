@@ -17,12 +17,24 @@ import com.amazonaws.regions.Regions;
  */
 public class AWSConfiguration {
 
-    // AWS MobileHub user agent string
+    //OLD CONFIGURATION (for TestWithFB on Mobile Hub)
+    /*// AWS MobileHub user agent string
     public static final String AWS_MOBILEHUB_USER_AGENT =
         "MobileHub 347e18f7-1c67-46aa-bbfa-4909165b0357 aws-my-sample-app-android-v0.9";
     // AMAZON COGNITO
     public static final Regions AMAZON_COGNITO_REGION =
       Regions.fromName("us-east-1");
     public static final String  AMAZON_COGNITO_IDENTITY_POOL_ID =
-        "us-east-1:1d838ddc-2d41-4e9f-ae29-7f6b199c8fd3";
+        "us-east-1:1d838ddc-2d41-4e9f-ae29-7f6b199c8fd3";*/
+
+    // AWS MobileHub user agent string
+    public static final String AWS_MOBILEHUB_USER_AGENT =
+            "MobileHub f4a5cb85-61bc-4bde-bc32-234e838bfc6c aws-my-sample-app-android-v0.10";
+    // AMAZON COGNITO
+    public static final Regions AMAZON_COGNITO_REGION =
+            Regions.fromName("us-east-1");
+    public static final String  AMAZON_COGNITO_IDENTITY_POOL_ID =
+            "us-east-1:b0d870c4-3075-47a5-b790-4fab4f839f7b";
+
 }
+
