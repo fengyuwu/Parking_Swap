@@ -1,0 +1,27 @@
+date: September 12, 2016
+meeting_type: group
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <xenalin>, <fengyuwu>, <tjquinn>]
+absent: [<ubit>,]
+excused_absences: [ # Any legitimate excuses for absent team members
+{ubit: <ubit5>, : reason: },
+{ubit: <ubit6>, reason: }
+]
+task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
+{ubit: <pkearney>, progress: Installed/setup Android Studio on personal laptop,},
+{ubit: <jsingh27>, progress: Physically created the UI on Android 
+Studio consisting of our 3 major buttons on the home screen and uploaded to github},
+{ubit: <mrnorton>, progress: Installed/setup Android Studio on personal laptop},
+{ubit: <ewyang>, progress: Installed/setup Android Studio on personal laptop},
+{ubit: <mjkall>, progress: Installed/setup Android Studio on personal laptop},
+{ubit: <xenalin>, progress: Installed/setup Android Studio on personal laptop},
+{ubit: <fengyuwu>, progress: Installed/setup Android Studio on personal laptop},
+{ubit: <tjquinn>, progress: Installed/setup Android Studio on personal laptop,Record Minutes}
+]
+issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
+{ubit: <tjquinn>, issue: Experienced a few minor installation issues with missing plug-ins, but those issues were resolved by the end of the meeting.},
+]
+Notes: | # Anything covered in the meeting that doesn't fit elsewhere.
+-Collectively discussed the core functions of the Parking Swap app.  
+-Collectively, modified the basic sketches of the UI from meeting 1.
+-Creating a quick and user friendly interface was deemed important and the sketches reflect this thinking.
+-Next meeting Wednesday Sept. 14, 2016.

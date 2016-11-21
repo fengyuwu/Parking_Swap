@@ -1,0 +1,53 @@
+Step 0: Install git
+	
+	$sudo apt-get install git
+
+Step 1: Create a feature branch off develop branch.
+
+Step 2: Clone parkingswap
+
+	$git clone https://github.com/pkearneyUB/parkingswap
+
+Step 3: Go to the repository
+ 
+	$cd parkingswap 
+
+
+Step 4: Check out your feature branch
+
+        $git checkout NameOfYourFeatureBranch
+
+Step 5: Work on tasks and save changes
+
+Step 6: Commit your work. 
+
+        $git add FilesYouWantToCommit
+
+        $git commit FilesYouWantToCommit -m "MeaningfulCommitMessages"
+
+        $git push
+
+step 7: Create a pull request on github so we can merge the your branch into develop.
+
+        Please make sure that the base is develop and compare is the name of you feature branch.
+
+	Example: base:develop compare:NameOfYourFeatureBranch
+
+Step 8: Merge your branch into develop branch (Everone can merge it).
+
+Done...
+
+
+
+Some useful commands:
+
+Make sure your repo is up-to-date
+$ git pull
+
+Make sure are at the right branch 
+$ git branch
+
+
+
+        
+

@@ -1,0 +1,28 @@
+date: September 21, 2016
+meeting_type: group
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>, <fengyuwu>, <tjquinn>]
+absent: [<ubit>,]
+excused_absences: [ # Any legitamite excuses for absent team members
+  {ubit: <ubit5>, : reason: },
+  {ubit: <ubit6>, reason: }
+  ]
+task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
+  {ubit: <pkearney>, progress:design discussion on backend, looking to learn about frameworks for DB access  (DJango)},
+  {ubit: <jsingh27>, progress: discussed about implementation of maps in the app using google api with mrnorton},
+  {ubit: <mrnorton>, progress: None},
+  {ubit: <ewyang>, progress: talk about what server to store user data, need to learn Django to build framework},
+  {ubit: <mjkall>, progress: None},
+  {ubit: <amingola>, progress: Speculated structure of the overall match-making system. Determined it will involve an algorithm using 2 queues, User objects with profiles, and a server},
+  {ubit: <fengyuwu>, progress: None},
+  {ubit: <tjquinn>, progress: Record Minutes,}
+  ]
+issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
+  {ubit: <ubit2>, issue: },
+  {ubit: <ubit6>, issue: }
+  ]
+Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
+  -Group started dividing up project into smaller tasks.
+  -Collectievly we determined we should start by dividing into front end and back end teams.  
+  -Front end: (3)jsingh, tjquinn, fengyuwu. 
+  -Back end: (5) pkearney, jsingh27, mrnorton, ewyang, mjkall, amingola.
+  -Meeting with Troy at 5pm today. 
