@@ -5,6 +5,7 @@ absent: [<fengyuwu>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
   {ubit: <ubit6>, reason: }
+  {ubit: <fengyuwu>, : I remebered that I was in every TA meeting, did I miss this one? : },
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <pkearney>, progress: working on concurrency locks to protect server global variables},
