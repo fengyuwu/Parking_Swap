@@ -1,5 +1,6 @@
 
 app/src/main/res/layout/activity_lots.xml
+<<<<<<< Updated upstream
 
 v0.3.0/res/layout/activity_map_campus.xml~HEAD
 
@@ -12,3 +13,5 @@ v0.3.0/res/layout/activity_leave.xml~HEAD
 v0.3.0/AndroidManifest.xml~HEAD
 
 minutes/sprint3-M2
+=======
+>>>>>>> Stashed changes
