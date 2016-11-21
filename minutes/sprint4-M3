@@ -4,6 +4,10 @@ attendance: [<pkearney>, <jsingh27>, <mrnorton>, <mjkall>, <amingola>, <fengyuwu
 absent: [<ewyang>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ewyang>, : was out of town renewing passport: },
+<<<<<<< HEAD
+=======
+  {ubit: <ewyang>, : out of town in order to renew passport: },
+>>>>>>> f4c79dec0662052e323f7c305b0184009c7a25d8
   {ubit: <ubit6>, reason: }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
