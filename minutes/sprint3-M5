@@ -4,6 +4,7 @@ attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>,
 absent: [<fengyuwu>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
+  {ubit: <fengyuwu>, : reason: I don't have transportation that day, I work at home.(more in Slack chat history)},
   {ubit: <ubit6>, reason: }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
