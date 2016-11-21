@@ -18,27 +18,18 @@ import com.google.android.gms.maps.model.LatLng;
 
 public class LeaveClient extends Activity {
 
-    TextView response2;
     Button buttonLeave;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leave_lot);
-
-
         buttonLeave = (Button) findViewById(R.id.leaveButton);
-
-
-
-        response2 = (TextView) findViewById(R.id.T4);
-
-
         buttonLeave.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                ServerLeave myClient = new ServerLeave(response2);
+                ServerLeave myClient = new ServerLeave();
                 myClient.execute();
 
 

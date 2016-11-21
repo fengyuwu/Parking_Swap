@@ -11,21 +11,19 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.Socket;
 import android.os.AsyncTask;
+
+import com.google.android.gms.maps.model.LatLng;
+
 import java.io.*;
 import java.util.*;
 
 public class ServerLeave extends AsyncTask<Void, Void, Void>
 {
 
-    public static String who;
-    TextView T1;
-    //System.out.println(player.getID());
-
-    ServerLeave(TextView textResponse) {
-        this.T1 = textResponse;
-    }
-
-
+    String who = null;
+    public static String LatPark = null;
+    public static String LongPark = null;
+    String LotName = null;
     @Override
     protected Void doInBackground(Void... arg0) {
 
@@ -65,35 +63,45 @@ public class ServerLeave extends AsyncTask<Void, Void, Void>
                 System.out.println();
                 System.out.println("YOU WANT TO PARK OR LEAVE?");
 
-
-
                 String curWord = "LEAVE";
 
                 out.println(curWord);
                 out.flush();
                 out.println(player.getID());
                 out.flush();
+                out.println(player.getLat());
+                out.flush();
+                out.println(player.getLong());
+                out.flush();
+                out.println(player.getLot());
+                out.flush();
 
-
-                String dan = in.nextLine();
-                while(dan.length()<1)
+                who = in.nextLine();
+                while(who.length()<1)
                 {
-                    dan = in.nextLine();
-                }
-                String lame = dan;
-
-                if(dan.equals(lame)  )
-                {
-
                     who = in.nextLine();
-                    while(who.length()<1)
-                    {
-                        who = in.nextLine();
-                    }
-                    step2 = false;
-
+                }
+                LatPark = in.nextLine();
+                while(LatPark.length()<1)
+                {
+                    LatPark = in.nextLine();
+                }
+                LongPark = in.nextLine();
+                while(LongPark.length()<1)
+                {
+                    LongPark = in.nextLine();
+                }
+                LotName = in.nextLine();
+                while(LotName.length()<1)
+                {
+                    LotName = in.nextLine();
                 }
 
+                while (who == null || LatPark == null || LongPark == null || LotName == null){
+
+
+                }
+                step2 = false;
 
             }
         }
@@ -104,6 +112,6 @@ public class ServerLeave extends AsyncTask<Void, Void, Void>
     @Override
     protected void onPostExecute(Void result) {
         super.onPostExecute(result);
-        T1.setText(who);
     }
+
 }
