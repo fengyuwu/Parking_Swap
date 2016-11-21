@@ -32,6 +32,8 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
     /** Class name for log messages. */
     private final static String LOG_TAG = FBMainActivity.class.getSimpleName();
 
+    public static String ParkOrLeave;
+
     /** Bundle key for saving/restoring the toolbar title. */
     private final static String BUNDLE_KEY_TOOLBAR_TITLE = "title";
 
@@ -57,18 +59,23 @@ public class FBMainActivity extends AppCompatActivity implements View.OnClickLis
 
 
     public void onButtonClickListener(View v){
-
+        ParkOrLeave = "Park";
         startActivity(new Intent("Lot_class.Lot"));
     }
 
     public void onButtonClickLeave(View v){
-
-        startActivity(new Intent("Leave_class.Leave"));
+        ParkOrLeave = "Leave";
+        startActivity(new Intent("Lot_class.Lot"));
     }
     public void onButtonClickQuick(View v){
 
         startActivity(new Intent("Server_class.Server"));
     }
+    public void onButtonClickLeaveClient(View v){
+
+        startActivity(new Intent("LClient_class.Client"));
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -11,24 +11,20 @@ import com.parkingswap.R;
 
 public class GetClient extends Activity {
 
-    TextView response;
     Button buttonConnect;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_server);
-
+        setContentView(R.layout.activity_park);
         buttonConnect = (Button) findViewById(R.id.connectButton);
-        response = (TextView) findViewById(R.id.T1);
-
         buttonConnect.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Server myClient = new Server(response);
+                ServerPark myClient = new ServerPark();
                 myClient.execute();
 
+<<<<<<< HEAD:INTEGRATED_INTO_S3_APP/java/com/parkingswap/server/GetClient.java
                 do{
                     response.setText(Server.who);
                     try {
@@ -39,12 +35,16 @@ public class GetClient extends Activity {
                 }while(response.getText().length() == 0);
 
                 response.setText(response.getText()+" Done!");
+=======
+>>>>>>> master:app/src/main/java/com/parkingswap/GetClient.java
 
             }
 
         });
 
 
+
     }
+
 
 }
