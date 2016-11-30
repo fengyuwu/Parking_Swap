@@ -4,7 +4,8 @@ attendance: [<pkearney>, <jsingh27>, <mrnorton>, <ewyang>, <mjkall>, <amingola>,
 absent: [<fengyuwu>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
-  {ubit: <ubit6>, reason: }
+  {ubit: <ubit6>, reason: },
+  {ubit: <fengyuwu>, : No transportation that day, can't get on campus : }
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <pkearney>, progress:Created EC2 server,  made security rules for connection,  test multi user connection to server class},

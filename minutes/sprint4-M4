@@ -1,7 +1,7 @@
 date: November 12, 2016
 meeting_type: group
 attendance: [<pkearney>, <jsingh27>, <mrnorton>, <mjkall>, <amingola>, <tjquinn>]
-absent: [<fengywu>,]
+absent: [<ubit>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
   {ubit: <ubit6>, reason: }
@@ -14,7 +14,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: Continuing work with buckets, signed-in users now have private buckets with their cognito ID as the key},
-  {ubit: <fengyuwu>, progress: None},
+  {ubit: <fengyuwu>, progress: Trying to fix Facebook sign out button and improve UI},
   {ubit: <tjquinn>, progress: None}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included

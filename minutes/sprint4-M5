@@ -15,7 +15,7 @@ task_progress: [ # All group members must be included here even if they haven't 
   {ubit: <ewyang>, progress: working on passing class object instead of stream for server},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: Integrated S3 buckets-related code into the app and restructured the packets to conform to Java convention},
-  {ubit: <fengyuwu>, progress: None},
+  {ubit: <fengyuwu>, progress: work on Facebook sign out button},
   {ubit: <tjquinn>, progress: Each queue has its own version of the matching method identified by the sector}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included

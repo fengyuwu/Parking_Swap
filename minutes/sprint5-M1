@@ -1,6 +1,6 @@
-date: November 19, 2016
+date: November 28, 2016
 meeting_type: group
-attendance: [<pkearney>, <jsingh27>, <mrnorton>, <mjkall>, <amingola>, <fengywu>, <tjquinn>]
+attendance: [<pkearney>, <jsingh27>, <mrnorton>, <mjkall>, <amingola>, <fengywu>, <tjquinn>, <ewyang>]
 absent: [<ubit>,]
 excused_absences: [ # Any legitamite excuses for absent team members
   {ubit: <ubit5>, : reason: },
@@ -8,13 +8,13 @@ excused_absences: [ # Any legitamite excuses for absent team members
   ]
 task_progress: [ # All group members must be included here even if they haven't made any progress since the last meeting
   {ubit: <jsingh27>, progress:None},
-  {ubit: <pkearney>, progress: working on alterative to Current "Big Lock" concurrency solution, won't be efficient with multiple queues},
-  {ubit: <jsingh27>, progress: Helped Mrnorton and tjquinn to incorporate their matchmaking algorithm onto the server},
+  {ubit: <pkearney>, progress: None},
+  {ubit: <jsingh27>, progress: None},
   {ubit: <mrnorton>, progress: None},
   {ubit: <ewyang>, progress: None},
   {ubit: <mjkall>, progress: None},
   {ubit: <amingola>, progress: None},
-  {ubit: <fengyuwu>, progress: fixed Facebook sign out button},
+  {ubit: <fengyuwu>, progress: None},
   {ubit: <tjquinn>, progress: None}
   ]
 issues: [ # Post any issues here. Issues that cannot be addressed by the group should especially be included
@@ -22,3 +22,4 @@ issues: [ # Post any issues here. Issues that cannot be addressed by the group s
   {ubit: <ubit6>, issue: }
   ]
 Notes:  | # Anything covered in the meeting that doesn't fit elsewhere.
+-spoke about requirements for the final sprint.
