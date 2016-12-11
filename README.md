@@ -1,11 +1,6 @@
 # parkingswap
-parkingswap is an Android parking app that allow user to find another app user's parking location. 
-The app uses Android Studio to create the user interface. The app incorporates FaceBook login to verify the user. 
-When a new user signs in to the app a new ID will be assign to the user which the user data such as car color, type, and model can then be saved on the AWS S3 bucket. 
-The server itself is written in java which is then hosted on AWS EC2.
-In the amazonaws/mobile folder it contains the java files which are server codes that run on the AWS EC2 which will handle the parking swap.
-In the parkingswap folder are the codes which handle the Android Studio activities for the app. 
-It also contains google map API to determine user location. 
-When the user clicks find lot the user can choose the parking lots they want from a list of UB parking lots. 
-The app will take the user and then place them into queue of the desired lot until another user from that lot click the leave button which will match the two user together.
-The quick find button will use the user location from google map to determine which queue of lot to place the user in.
+ParkingSwap is an Android parking app that allows users who are parking on campus to find the parking spot of another user who is leaving. Android Studio was used to create the app itself. The app incorporates Facebook login to authenticate users. When a new user signs in to the app a new ID will be assigned to the user in our back-end. User data such as car make, model, and color can then be saved to an AWS S3 bucket unique and private to the user’s ID. The application running on the server is written in Java which is then hosted on AWS EC2.
+
+In the parkingswap package is the code which constitutes the Android Studio activities for the app. The app uses Google Maps API to determine user location. When the user clicks the “Find by Lots” the user can choose the parking lot they want from a list of UB north/south campus parking lots. The app will take the user and then place them into queue for the desired lot until another user from that lot clicks the “Leave” button (placing them in the complementary leaving queue) which will match the two users together.
+
+The intention of this app is to make parking at UB as painless as possible.
