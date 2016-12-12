@@ -4,3 +4,6 @@ ParkingSwap is an Android parking app that allows users who are parking on campu
 In the parkingswap package is the code which constitutes the Android Studio activities for the app. The app uses Google Maps API to determine user location. When the user clicks the “Find by Lots” the user can choose the parking lot they want from a list of UB north/south campus parking lots. The app will take the user and then place them into queue for the desired lot until another user from that lot clicks the “Leave” button (placing them in the complementary leaving queue) which will match the two users together.
 
 The intention of this app is to make parking at UB as painless as possible.
+
+Deployment zip that includes, installation instructions, user guide and the apk file
+http://www.mediafire.com/file/2yt1u116wl0o107/ParkingSwap.zip
