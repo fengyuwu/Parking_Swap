@@ -7,3 +7,12 @@ The intention of this app is to make parking at UB as painless as possible.
 
 Deployment zip that includes, installation instructions, user guide and the apk file
 http://www.mediafire.com/file/2yt1u116wl0o107/ParkingSwap.zip
+
+
+![alt text](https://github.com/fengyuwu/Parking_Swap/blob/master/15843_screen_shot_20170308_at_101303_pmf%20(1).png) 
+
+
+![alt text](https://github.com/fengyuwu/Parking_Swap/blob/master/15843_screen_shot_20170308_at_101303_pmf%20(2).png ) 
+
+
+![alt text](https://github.com/fengyuwu/Parking_Swap/blob/master/15843_screen_shot_20170308_at_101303_pmf.png) 
