@@ -14,7 +14,7 @@ Getting Started
 This project implemented a mobile app that assists the users to find and swap their parking spot.
 
 
-Project detail
+Project Details
 ---------------
 
 ParkingSwap is an Android parking app that allows users who are parking on campus to find the parking spot of another user who is leaving. Android Studio was used to create the app itself. The app incorporates Facebook login to authenticate users. When a new user signs in to the app a new ID will be assigned to the user in our back-end. User data such as car make, model, and color can then be saved to an AWS S3 bucket unique and private to the user’s ID. The application running on the server is written in Java which is then hosted on AWS EC2.
