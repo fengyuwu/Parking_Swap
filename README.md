@@ -32,7 +32,7 @@ Deployment zip that includes, installation instructions, user guide and the apk 
 http://www.mediafire.com/file/2yt1u116wl0o107/ParkingSwap.zip
 
 
-![alt text](https://github.com/fengyuwu/Parking_Swap/blob/master/fengyuwu/Parking_Swap/blob/master/screenshot/ParkingSwap.png) 
+![alt text](https://github.com/fengyuwu/Parking_Swap/blob/screenshot/ParkingSwap.png) 
 
 
 
