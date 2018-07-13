@@ -11,7 +11,7 @@ Pre-requisites
 Getting Started
 ---------------
 
-This project implemented a mobile app that assists the users to find and swap their parking spot.
+This project implemented a mobile app that assists users to find and swap their parking spot.
 
 
 Project Details
